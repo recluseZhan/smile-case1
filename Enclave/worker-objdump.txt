@@ -1,0 +1,425 @@
+000000000000284d <manage_rsa>:
+    284d:	55                   	push   %rbp
+    284e:	48 89 e5             	mov    %rsp,%rbp
+    2851:	48 81 ec 10 02 00 00 	sub    $0x210,%rsp
+    2858:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+    285f:	00 00 
+    2861:	48 89 45 f8          	mov    %rax,-0x8(%rbp)
+    2865:	31 c0                	xor    %eax,%eax
+    2867:	c7 85 fc fd ff ff 01 	movl   $0x1,-0x204(%rbp)
+    286e:	00 00 00 
+    2871:	48 c7 85 00 fe ff ff 	movq   $0x100,-0x200(%rbp)
+    2878:	00 01 00 00 
+    287c:	48 8b 85 00 fe ff ff 	mov    -0x200(%rbp),%rax
+    2883:	48 d1 e8             	shr    %rax
+    2886:	48 89 85 08 fe ff ff 	mov    %rax,-0x1f8(%rbp)
+    288d:	48 c7 85 10 fe ff ff 	movq   $0x4,-0x1f0(%rbp)
+    2894:	04 00 00 00 
+    2898:	c7 85 6c fe ff ff 00 	movl   $0x0,-0x194(%rbp)
+    289f:	00 00 00 
+    28a2:	c6 85 6c fe ff ff 01 	movb   $0x1,-0x194(%rbp)
+    28a9:	c6 85 6e fe ff ff 01 	movb   $0x1,-0x192(%rbp)
+    28b0:	48 8b 85 00 fe ff ff 	mov    -0x200(%rbp),%rax
+    28b7:	48 89 c7             	mov    %rax,%rdi
+    28ba:	e8 e6 95 00 00       	callq  bea5 <dlmalloc>
+    28bf:	48 89 85 18 fe ff ff 	mov    %rax,-0x1e8(%rbp)
+    28c6:	48 8b 85 00 fe ff ff 	mov    -0x200(%rbp),%rax
+    28cd:	48 89 c7             	mov    %rax,%rdi
+    28d0:	e8 d0 95 00 00       	callq  bea5 <dlmalloc>
+    28d5:	48 89 85 20 fe ff ff 	mov    %rax,-0x1e0(%rbp)
+    28dc:	48 8b 85 08 fe ff ff 	mov    -0x1f8(%rbp),%rax
+    28e3:	48 89 c7             	mov    %rax,%rdi
+    28e6:	e8 ba 95 00 00       	callq  bea5 <dlmalloc>
+    28eb:	48 89 85 28 fe ff ff 	mov    %rax,-0x1d8(%rbp)
+    28f2:	48 8b 85 08 fe ff ff 	mov    -0x1f8(%rbp),%rax
+    28f9:	48 89 c7             	mov    %rax,%rdi
+    28fc:	e8 a4 95 00 00       	callq  bea5 <dlmalloc>
+    2901:	48 89 85 30 fe ff ff 	mov    %rax,-0x1d0(%rbp)
+    2908:	48 8b 85 08 fe ff ff 	mov    -0x1f8(%rbp),%rax
+    290f:	48 89 c7             	mov    %rax,%rdi
+    2912:	e8 8e 95 00 00       	callq  bea5 <dlmalloc>
+    2917:	48 89 85 38 fe ff ff 	mov    %rax,-0x1c8(%rbp)
+    291e:	48 8b 85 08 fe ff ff 	mov    -0x1f8(%rbp),%rax
+    2925:	48 89 c7             	mov    %rax,%rdi
+    2928:	e8 78 95 00 00       	callq  bea5 <dlmalloc>
+    292d:	48 89 85 40 fe ff ff 	mov    %rax,-0x1c0(%rbp)
+    2934:	48 8b 85 08 fe ff ff 	mov    -0x1f8(%rbp),%rax
+    293b:	48 89 c7             	mov    %rax,%rdi
+    293e:	e8 62 95 00 00       	callq  bea5 <dlmalloc>
+    2943:	48 89 85 48 fe ff ff 	mov    %rax,-0x1b8(%rbp)
+    294a:	48 8b 95 08 fe ff ff 	mov    -0x1f8(%rbp),%rdx
+    2951:	48 89 d0             	mov    %rdx,%rax
+    2954:	48 c1 e0 02          	shl    $0x2,%rax
+    2958:	48 01 d0             	add    %rdx,%rax
+    295b:	48 89 c7             	mov    %rax,%rdi
+    295e:	e8 42 95 00 00       	callq  bea5 <dlmalloc>
+    2963:	48 89 85 50 fe ff ff 	mov    %rax,-0x1b0(%rbp)
+    296a:	48 8b 85 10 fe ff ff 	mov    -0x1f0(%rbp),%rax
+    2971:	41 89 c2             	mov    %eax,%r10d
+    2974:	48 8b 85 00 fe ff ff 	mov    -0x200(%rbp),%rax
+    297b:	89 c7                	mov    %eax,%edi
+    297d:	48 8b b5 28 fe ff ff 	mov    -0x1d8(%rbp),%rsi
+    2984:	48 8d 8d 6c fe ff ff 	lea    -0x194(%rbp),%rcx
+    298b:	48 8b 95 20 fe ff ff 	mov    -0x1e0(%rbp),%rdx
+    2992:	48 8b 85 18 fe ff ff 	mov    -0x1e8(%rbp),%rax
+    2999:	ff b5 48 fe ff ff    	pushq  -0x1b8(%rbp)
+    299f:	ff b5 40 fe ff ff    	pushq  -0x1c0(%rbp)
+    29a5:	ff b5 38 fe ff ff    	pushq  -0x1c8(%rbp)
+    29ab:	ff b5 30 fe ff ff    	pushq  -0x1d0(%rbp)
+    29b1:	49 89 f1             	mov    %rsi,%r9
+    29b4:	49 89 c8             	mov    %rcx,%r8
+    29b7:	48 89 d1             	mov    %rdx,%rcx
+    29ba:	48 89 c2             	mov    %rax,%rdx
+    29bd:	44 89 d6             	mov    %r10d,%esi
+    29c0:	e8 89 c8 02 00       	callq  2f24e <sgx_create_rsa_key_pair>
+    29c5:	48 83 c4 20          	add    $0x20,%rsp
+    29c9:	48 8b 85 10 fe ff ff 	mov    -0x1f0(%rbp),%rax
+    29d0:	41 89 c2             	mov    %eax,%r10d
+    29d3:	48 8b 85 00 fe ff ff 	mov    -0x200(%rbp),%rax
+    29da:	89 c7                	mov    %eax,%edi
+    29dc:	48 8b b5 28 fe ff ff 	mov    -0x1d8(%rbp),%rsi
+    29e3:	48 8d 8d 6c fe ff ff 	lea    -0x194(%rbp),%rcx
+    29ea:	48 8b 95 20 fe ff ff 	mov    -0x1e0(%rbp),%rdx
+    29f1:	48 8b 85 18 fe ff ff 	mov    -0x1e8(%rbp),%rax
+    29f8:	ff b5 48 fe ff ff    	pushq  -0x1b8(%rbp)
+    29fe:	ff b5 40 fe ff ff    	pushq  -0x1c0(%rbp)
+    2a04:	ff b5 38 fe ff ff    	pushq  -0x1c8(%rbp)
+    2a0a:	ff b5 30 fe ff ff    	pushq  -0x1d0(%rbp)
+    2a10:	49 89 f1             	mov    %rsi,%r9
+    2a13:	49 89 c8             	mov    %rcx,%r8
+    2a16:	48 89 d1             	mov    %rdx,%rcx
+    2a19:	48 89 c2             	mov    %rax,%rdx
+    2a1c:	44 89 d6             	mov    %r10d,%esi
+    2a1f:	e8 2a c8 02 00       	callq  2f24e <sgx_create_rsa_key_pair>
+    2a24:	48 83 c4 20          	add    $0x20,%rsp
+    2a28:	89 85 fc fd ff ff    	mov    %eax,-0x204(%rbp)
+    2a2e:	83 bd fc fd ff ff 00 	cmpl   $0x0,-0x204(%rbp)
+    2a35:	0f 95 c0             	setne  %al
+    2a38:	84 c0                	test   %al,%al
+    2a3a:	74 11                	je     2a4d <manage_rsa+0x200>
+    2a3c:	48 8d 3d 15 64 0c 00 	lea    0xc6415(%rip),%rdi        # c8e58 <g_dyn_entry_table+0x18>
+    2a43:	b8 00 00 00 00       	mov    $0x0,%eax
+    2a48:	e8 dc fc ff ff       	callq  2729 <printf>
+    2a4d:	48 8b 95 08 fe ff ff 	mov    -0x1f8(%rbp),%rdx
+    2a54:	48 8b 8d 28 fe ff ff 	mov    -0x1d8(%rbp),%rcx
+    2a5b:	48 8b 85 50 fe ff ff 	mov    -0x1b0(%rbp),%rax
+    2a62:	48 89 ce             	mov    %rcx,%rsi
+    2a65:	48 89 c7             	mov    %rax,%rdi
+    2a68:	e8 80 c5 00 00       	callq  efed <memcpy>
+    2a6d:	48 8b 95 50 fe ff ff 	mov    -0x1b0(%rbp),%rdx
+    2a74:	48 8b 85 08 fe ff ff 	mov    -0x1f8(%rbp),%rax
+    2a7b:	48 8d 0c 02          	lea    (%rdx,%rax,1),%rcx
+    2a7f:	48 8b 95 08 fe ff ff 	mov    -0x1f8(%rbp),%rdx
+    2a86:	48 8b 85 30 fe ff ff 	mov    -0x1d0(%rbp),%rax
+    2a8d:	48 89 c6             	mov    %rax,%rsi
+    2a90:	48 89 cf             	mov    %rcx,%rdi
+    2a93:	e8 55 c5 00 00       	callq  efed <memcpy>
+    2a98:	48 8b 85 08 fe ff ff 	mov    -0x1f8(%rbp),%rax
+    2a9f:	48 8d 14 00          	lea    (%rax,%rax,1),%rdx
+    2aa3:	48 8b 85 50 fe ff ff 	mov    -0x1b0(%rbp),%rax
+    2aaa:	48 8d 0c 02          	lea    (%rdx,%rax,1),%rcx
+    2aae:	48 8b 95 08 fe ff ff 	mov    -0x1f8(%rbp),%rdx
+    2ab5:	48 8b 85 38 fe ff ff 	mov    -0x1c8(%rbp),%rax
+    2abc:	48 89 c6             	mov    %rax,%rsi
+    2abf:	48 89 cf             	mov    %rcx,%rdi
+    2ac2:	e8 26 c5 00 00       	callq  efed <memcpy>
+    2ac7:	48 8b 95 08 fe ff ff 	mov    -0x1f8(%rbp),%rdx
+    2ace:	48 89 d0             	mov    %rdx,%rax
+    2ad1:	48 01 c0             	add    %rax,%rax
+    2ad4:	48 01 c2             	add    %rax,%rdx
+    2ad7:	48 8b 85 50 fe ff ff 	mov    -0x1b0(%rbp),%rax
+    2ade:	48 8d 0c 02          	lea    (%rdx,%rax,1),%rcx
+    2ae2:	48 8b 95 08 fe ff ff 	mov    -0x1f8(%rbp),%rdx
+    2ae9:	48 8b 85 40 fe ff ff 	mov    -0x1c0(%rbp),%rax
+    2af0:	48 89 c6             	mov    %rax,%rsi
+    2af3:	48 89 cf             	mov    %rcx,%rdi
+    2af6:	e8 f2 c4 00 00       	callq  efed <memcpy>
+    2afb:	48 8b 85 08 fe ff ff 	mov    -0x1f8(%rbp),%rax
+    2b02:	48 8d 14 85 00 00 00 	lea    0x0(,%rax,4),%rdx
+    2b09:	00 
+    2b0a:	48 8b 85 50 fe ff ff 	mov    -0x1b0(%rbp),%rax
+    2b11:	48 8d 0c 02          	lea    (%rdx,%rax,1),%rcx
+    2b15:	48 8b 95 08 fe ff ff 	mov    -0x1f8(%rbp),%rdx
+    2b1c:	48 8b 85 48 fe ff ff 	mov    -0x1b8(%rbp),%rax
+    2b23:	48 89 c6             	mov    %rax,%rsi
+    2b26:	48 89 cf             	mov    %rcx,%rdi
+    2b29:	e8 bf c4 00 00       	callq  efed <memcpy>
+    2b2e:	48 8b 85 00 fe ff ff 	mov    -0x200(%rbp),%rax
+    2b35:	48 89 c7             	mov    %rax,%rdi
+    2b38:	e8 68 93 00 00       	callq  bea5 <dlmalloc>
+    2b3d:	48 89 85 58 fe ff ff 	mov    %rax,-0x1a8(%rbp)
+    2b44:	48 8b 95 00 fe ff ff 	mov    -0x200(%rbp),%rdx
+    2b4b:	48 8b 8d 18 fe ff ff 	mov    -0x1e8(%rbp),%rcx
+    2b52:	48 8b 85 58 fe ff ff 	mov    -0x1a8(%rbp),%rax
+    2b59:	48 89 ce             	mov    %rcx,%rsi
+    2b5c:	48 89 c7             	mov    %rax,%rdi
+    2b5f:	e8 89 c4 00 00       	callq  efed <memcpy>
+    2b64:	83 bd fc fd ff ff 00 	cmpl   $0x0,-0x204(%rbp)
+    2b6b:	75 11                	jne    2b7e <manage_rsa+0x331>
+    2b6d:	48 8d 3d 1c 63 0c 00 	lea    0xc631c(%rip),%rdi        # c8e90 <g_dyn_entry_table+0x50>
+    2b74:	b8 00 00 00 00       	mov    $0x0,%eax
+    2b79:	e8 ab fb ff ff       	callq  2729 <printf>
+    2b7e:	48 8d 05 7b e4 2d 00 	lea    0x2de47b(%rip),%rax        # 2e1000 <_ZL5p_key>
+    2b85:	48 89 85 60 fe ff ff 	mov    %rax,-0x1a0(%rbp)
+    2b8c:	48 8d 8d 70 fe ff ff 	lea    -0x190(%rbp),%rcx
+    2b93:	48 8b 95 50 fe ff ff 	mov    -0x1b0(%rbp),%rdx
+    2b9a:	48 8b 85 60 fe ff ff 	mov    -0x1a0(%rbp),%rax
+    2ba1:	be 04 00 00 00       	mov    $0x4,%esi
+    2ba6:	48 89 c7             	mov    %rax,%rdi
+    2ba9:	e8 5b cf 02 00       	callq  2fb09 <sgx_rsa3072_sign>
+    2bae:	89 85 fc fd ff ff    	mov    %eax,-0x204(%rbp)
+    2bb4:	48 8d b5 f8 fd ff ff 	lea    -0x208(%rbp),%rsi
+    2bbb:	48 8d 8d 70 fe ff ff 	lea    -0x190(%rbp),%rcx
+    2bc2:	48 8b 95 58 fe ff ff 	mov    -0x1a8(%rbp),%rdx
+    2bc9:	48 8b 85 60 fe ff ff 	mov    -0x1a0(%rbp),%rax
+    2bd0:	49 89 f0             	mov    %rsi,%r8
+    2bd3:	be 04 00 00 00       	mov    $0x4,%esi
+    2bd8:	48 89 c7             	mov    %rax,%rdi
+    2bdb:	e8 01 d2 02 00       	callq  2fde1 <sgx_rsa3072_verify>
+    2be0:	89 85 fc fd ff ff    	mov    %eax,-0x204(%rbp)
+    2be6:	48 8b 85 18 fe ff ff 	mov    -0x1e8(%rbp),%rax
+    2bed:	48 89 c7             	mov    %rax,%rdi
+    2bf0:	e8 a7 9d 00 00       	callq  c99c <dlfree>
+    2bf5:	48 8b 85 20 fe ff ff 	mov    -0x1e0(%rbp),%rax
+    2bfc:	48 89 c7             	mov    %rax,%rdi
+    2bff:	e8 98 9d 00 00       	callq  c99c <dlfree>
+    2c04:	48 8b 85 28 fe ff ff 	mov    -0x1d8(%rbp),%rax
+    2c0b:	48 89 c7             	mov    %rax,%rdi
+    2c0e:	e8 89 9d 00 00       	callq  c99c <dlfree>
+    2c13:	48 8b 85 30 fe ff ff 	mov    -0x1d0(%rbp),%rax
+    2c1a:	48 89 c7             	mov    %rax,%rdi
+    2c1d:	e8 7a 9d 00 00       	callq  c99c <dlfree>
+    2c22:	48 8b 85 38 fe ff ff 	mov    -0x1c8(%rbp),%rax
+    2c29:	48 89 c7             	mov    %rax,%rdi
+    2c2c:	e8 6b 9d 00 00       	callq  c99c <dlfree>
+    2c31:	48 8b 85 40 fe ff ff 	mov    -0x1c0(%rbp),%rax
+    2c38:	48 89 c7             	mov    %rax,%rdi
+    2c3b:	e8 5c 9d 00 00       	callq  c99c <dlfree>
+    2c40:	48 8b 85 48 fe ff ff 	mov    -0x1b8(%rbp),%rax
+    2c47:	48 89 c7             	mov    %rax,%rdi
+    2c4a:	e8 4d 9d 00 00       	callq  c99c <dlfree>
+    2c4f:	48 8b 85 50 fe ff ff 	mov    -0x1b0(%rbp),%rax
+    2c56:	48 89 c7             	mov    %rax,%rdi
+    2c59:	e8 3e 9d 00 00       	callq  c99c <dlfree>
+    2c5e:	90                   	nop
+    2c5f:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+    2c63:	64 48 33 04 25 28 00 	xor    %fs:0x28,%rax
+    2c6a:	00 00 
+    2c6c:	74 05                	je     2c73 <manage_rsa+0x426>
+    2c6e:	e8 55 42 00 00       	callq  6ec8 <__stack_chk_fail>
+    2c73:	c9                   	leaveq 
+    2c74:	c3                   	retq   
+
+0000000000002c75 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t>:
+    2c75:	4c 8d 54 24 08       	lea    0x8(%rsp),%r10
+    2c7a:	48 81 e4 00 fe ff ff 	and    $0xfffffffffffffe00,%rsp
+    2c81:	41 ff 72 f8          	pushq  -0x8(%r10)
+    2c85:	55                   	push   %rbp
+    2c86:	48 89 e5             	mov    %rsp,%rbp
+    2c89:	41 52                	push   %r10
+    2c8b:	48 81 ec e8 09 00 00 	sub    $0x9e8,%rsp
+    2c92:	48 89 bd 78 f7 ff ff 	mov    %rdi,-0x888(%rbp)
+    2c99:	48 89 b5 70 f7 ff ff 	mov    %rsi,-0x890(%rbp)
+    2ca0:	48 89 95 68 f7 ff ff 	mov    %rdx,-0x898(%rbp)
+    2ca7:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+    2cae:	00 00 
+    2cb0:	48 89 85 08 fe ff ff 	mov    %rax,-0x1f8(%rbp)
+    2cb7:	31 c0                	xor    %eax,%eax
+    2cb9:	48 8d 85 90 f7 ff ff 	lea    -0x870(%rbp),%rax
+    2cc0:	ba 40 00 00 00       	mov    $0x40,%edx
+    2cc5:	be 00 00 00 00       	mov    $0x0,%esi
+    2cca:	48 89 c7             	mov    %rax,%rdi
+    2ccd:	e8 89 c3 00 00       	callq  f05b <memset>
+    2cd2:	48 8d 85 10 fa ff ff 	lea    -0x5f0(%rbp),%rax
+    2cd9:	ba 00 02 00 00       	mov    $0x200,%edx
+    2cde:	be 00 00 00 00       	mov    $0x0,%esi
+    2ce3:	48 89 c7             	mov    %rax,%rdi
+    2ce6:	e8 70 c3 00 00       	callq  f05b <memset>
+    2ceb:	48 8d 85 10 f8 ff ff 	lea    -0x7f0(%rbp),%rax
+    2cf2:	ba b0 01 00 00       	mov    $0x1b0,%edx
+    2cf7:	be 00 00 00 00       	mov    $0x0,%esi
+    2cfc:	48 89 c7             	mov    %rax,%rdi
+    2cff:	e8 57 c3 00 00       	callq  f05b <memset>
+    2d04:	48 83 bd 78 f7 ff ff 	cmpq   $0x0,-0x888(%rbp)
+    2d0b:	00 
+    2d0c:	74 46                	je     2d54 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0xdf>
+    2d0e:	48 8b 85 78 f7 ff ff 	mov    -0x888(%rbp),%rax
+    2d15:	be 00 02 00 00       	mov    $0x200,%esi
+    2d1a:	48 89 c7             	mov    %rax,%rdi
+    2d1d:	e8 e4 04 00 00       	callq  3206 <sgx_is_within_enclave>
+    2d22:	85 c0                	test   %eax,%eax
+    2d24:	0f 94 c0             	sete   %al
+    2d27:	84 c0                	test   %al,%al
+    2d29:	74 0a                	je     2d35 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0xc0>
+    2d2b:	b8 02 00 00 00       	mov    $0x2,%eax
+    2d30:	e9 f7 01 00 00       	jmpq   2f2c <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x2b7>
+    2d35:	48 8b 95 78 f7 ff ff 	mov    -0x888(%rbp),%rdx
+    2d3c:	48 8d 85 10 fa ff ff 	lea    -0x5f0(%rbp),%rax
+    2d43:	48 89 d6             	mov    %rdx,%rsi
+    2d46:	ba 40 00 00 00       	mov    $0x40,%edx
+    2d4b:	48 89 c7             	mov    %rax,%rdi
+    2d4e:	48 89 d1             	mov    %rdx,%rcx
+    2d51:	f3 48 a5             	rep movsq %ds:(%rsi),%es:(%rdi)
+    2d54:	48 83 bd 70 f7 ff ff 	cmpq   $0x0,-0x890(%rbp)
+    2d5b:	00 
+    2d5c:	0f 84 85 00 00 00    	je     2de7 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x172>
+    2d62:	48 8b 85 70 f7 ff ff 	mov    -0x890(%rbp),%rax
+    2d69:	be 40 00 00 00       	mov    $0x40,%esi
+    2d6e:	48 89 c7             	mov    %rax,%rdi
+    2d71:	e8 90 04 00 00       	callq  3206 <sgx_is_within_enclave>
+    2d76:	85 c0                	test   %eax,%eax
+    2d78:	0f 94 c0             	sete   %al
+    2d7b:	84 c0                	test   %al,%al
+    2d7d:	74 0a                	je     2d89 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x114>
+    2d7f:	b8 02 00 00 00       	mov    $0x2,%eax
+    2d84:	e9 a3 01 00 00       	jmpq   2f2c <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x2b7>
+    2d89:	48 8b 8d 70 f7 ff ff 	mov    -0x890(%rbp),%rcx
+    2d90:	48 8b 01             	mov    (%rcx),%rax
+    2d93:	48 8b 51 08          	mov    0x8(%rcx),%rdx
+    2d97:	48 89 85 90 f7 ff ff 	mov    %rax,-0x870(%rbp)
+    2d9e:	48 89 95 98 f7 ff ff 	mov    %rdx,-0x868(%rbp)
+    2da5:	48 8b 41 10          	mov    0x10(%rcx),%rax
+    2da9:	48 8b 51 18          	mov    0x18(%rcx),%rdx
+    2dad:	48 89 85 a0 f7 ff ff 	mov    %rax,-0x860(%rbp)
+    2db4:	48 89 95 a8 f7 ff ff 	mov    %rdx,-0x858(%rbp)
+    2dbb:	48 8b 41 20          	mov    0x20(%rcx),%rax
+    2dbf:	48 8b 51 28          	mov    0x28(%rcx),%rdx
+    2dc3:	48 89 85 b0 f7 ff ff 	mov    %rax,-0x850(%rbp)
+    2dca:	48 89 95 b8 f7 ff ff 	mov    %rdx,-0x848(%rbp)
+    2dd1:	48 8b 41 30          	mov    0x30(%rcx),%rax
+    2dd5:	48 8b 51 38          	mov    0x38(%rcx),%rdx
+    2dd9:	48 89 85 c0 f7 ff ff 	mov    %rax,-0x840(%rbp)
+    2de0:	48 89 95 c8 f7 ff ff 	mov    %rdx,-0x838(%rbp)
+    2de7:	48 83 bd 68 f7 ff ff 	cmpq   $0x0,-0x898(%rbp)
+    2dee:	00 
+    2def:	74 18                	je     2e09 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x194>
+    2df1:	48 8b 85 68 f7 ff ff 	mov    -0x898(%rbp),%rax
+    2df8:	be b0 01 00 00       	mov    $0x1b0,%esi
+    2dfd:	48 89 c7             	mov    %rax,%rdi
+    2e00:	e8 01 04 00 00       	callq  3206 <sgx_is_within_enclave>
+    2e05:	85 c0                	test   %eax,%eax
+    2e07:	75 07                	jne    2e10 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x19b>
+    2e09:	b8 01 00 00 00       	mov    $0x1,%eax
+    2e0e:	eb 05                	jmp    2e15 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x1a0>
+    2e10:	b8 00 00 00 00       	mov    $0x0,%eax
+    2e15:	84 c0                	test   %al,%al
+    2e17:	74 0a                	je     2e23 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x1ae>
+    2e19:	b8 02 00 00 00       	mov    $0x2,%eax
+    2e1e:	e9 09 01 00 00       	jmpq   2f2c <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x2b7>
+    2e23:	48 8b 85 78 f7 ff ff 	mov    -0x888(%rbp),%rax
+    2e2a:	48 81 ec 00 02 00 00 	sub    $0x200,%rsp
+    2e31:	48 89 e2             	mov    %rsp,%rdx
+    2e34:	48 89 c6             	mov    %rax,%rsi
+    2e37:	b8 40 00 00 00       	mov    $0x40,%eax
+    2e3c:	48 89 d7             	mov    %rdx,%rdi
+    2e3f:	48 89 c1             	mov    %rax,%rcx
+    2e42:	f3 48 a5             	rep movsq %ds:(%rsi),%es:(%rdi)
+    2e45:	48 8d 3d b4 60 0c 00 	lea    0xc60b4(%rip),%rdi        # c8f00 <g_dyn_entry_table+0xc0>
+    2e4c:	b8 00 00 00 00       	mov    $0x0,%eax
+    2e51:	e8 d3 f8 ff ff       	callq  2729 <printf>
+    2e56:	48 81 c4 00 02 00 00 	add    $0x200,%rsp
+    2e5d:	c7 85 84 f7 ff ff 00 	movl   $0x0,-0x87c(%rbp)
+    2e64:	00 00 00 
+    2e67:	48 8d 8d 10 f8 ff ff 	lea    -0x7f0(%rbp),%rcx
+    2e6e:	48 8d 95 90 f7 ff ff 	lea    -0x870(%rbp),%rdx
+    2e75:	48 8d 85 10 fa ff ff 	lea    -0x5f0(%rbp),%rax
+    2e7c:	48 89 c6             	mov    %rax,%rsi
+    2e7f:	48 8d 3d 9a 60 0c 00 	lea    0xc609a(%rip),%rdi        # c8f20 <g_dyn_entry_table+0xe0>
+    2e86:	b8 00 00 00 00       	mov    $0x0,%eax
+    2e8b:	e8 99 f8 ff ff       	callq  2729 <printf>
+    2e90:	48 8d 95 10 f8 ff ff 	lea    -0x7f0(%rbp),%rdx
+    2e97:	48 8d 8d 90 f7 ff ff 	lea    -0x870(%rbp),%rcx
+    2e9e:	48 8d 85 10 fa ff ff 	lea    -0x5f0(%rbp),%rax
+    2ea5:	48 89 ce             	mov    %rcx,%rsi
+    2ea8:	48 89 c7             	mov    %rax,%rdi
+    2eab:	e8 3c 01 00 00       	callq  2fec <do_ereport_define>
+    2eb0:	89 85 84 f7 ff ff    	mov    %eax,-0x87c(%rbp)
+    2eb6:	83 bd 84 f7 ff ff 00 	cmpl   $0x0,-0x87c(%rbp)
+    2ebd:	75 57                	jne    2f16 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x2a1>
+    2ebf:	48 c7 85 88 f7 ff ff 	movq   $0x0,-0x878(%rbp)
+    2ec6:	00 00 00 00 
+    2eca:	48 83 bd 88 f7 ff ff 	cmpq   $0x35,-0x878(%rbp)
+    2ed1:	35 
+    2ed2:	77 42                	ja     2f16 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x2a1>
+    2ed4:	48 8b 85 88 f7 ff ff 	mov    -0x878(%rbp),%rax
+    2edb:	48 8d 14 c5 00 00 00 	lea    0x0(,%rax,8),%rdx
+    2ee2:	00 
+    2ee3:	48 8d 85 10 f8 ff ff 	lea    -0x7f0(%rbp),%rax
+    2eea:	48 01 d0             	add    %rdx,%rax
+    2eed:	48 8b 95 88 f7 ff ff 	mov    -0x878(%rbp),%rdx
+    2ef4:	48 8d 0c d5 00 00 00 	lea    0x0(,%rdx,8),%rcx
+    2efb:	00 
+    2efc:	48 8b 95 68 f7 ff ff 	mov    -0x898(%rbp),%rdx
+    2f03:	48 01 ca             	add    %rcx,%rdx
+    2f06:	48 8b 00             	mov    (%rax),%rax
+    2f09:	48 89 02             	mov    %rax,(%rdx)
+    2f0c:	48 83 85 88 f7 ff ff 	addq   $0x1,-0x878(%rbp)
+    2f13:	01 
+    2f14:	eb b4                	jmp    2eca <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x255>
+    2f16:	83 bd 84 f7 ff ff 00 	cmpl   $0x0,-0x87c(%rbp)
+    2f1d:	74 07                	je     2f26 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x2b1>
+    2f1f:	b8 01 00 00 00       	mov    $0x1,%eax
+    2f24:	eb 06                	jmp    2f2c <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x2b7>
+    2f26:	b8 00 00 00 00       	mov    $0x0,%eax
+    2f2b:	90                   	nop
+    2f2c:	48 8b b5 08 fe ff ff 	mov    -0x1f8(%rbp),%rsi
+    2f33:	64 48 33 34 25 28 00 	xor    %fs:0x28,%rsi
+    2f3a:	00 00 
+    2f3c:	74 05                	je     2f43 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t+0x2ce>
+    2f3e:	e8 85 3f 00 00       	callq  6ec8 <__stack_chk_fail>
+    2f43:	4c 8b 55 f8          	mov    -0x8(%rbp),%r10
+    2f47:	c9                   	leaveq 
+    2f48:	49 8d 62 f8          	lea    -0x8(%r10),%rsp
+    2f4c:	c3                   	retq   
+
+0000000000002f4d <worker>:
+    2f4d:	55                   	push   %rbp
+    2f4e:	48 89 e5             	mov    %rsp,%rbp
+    2f51:	48 81 ec d0 03 00 00 	sub    $0x3d0,%rsp
+    2f58:	48 89 bd 38 fc ff ff 	mov    %rdi,-0x3c8(%rbp)
+    2f5f:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+    2f66:	00 00 
+    2f68:	48 89 45 f8          	mov    %rax,-0x8(%rbp)
+    2f6c:	31 c0                	xor    %eax,%eax
+    2f6e:	ff b5 08 fe ff ff    	pushq  -0x1f8(%rbp)
+    2f74:	ff b5 00 fe ff ff    	pushq  -0x200(%rbp)
+    2f7a:	ff b5 f8 fd ff ff    	pushq  -0x208(%rbp)
+    2f80:	ff b5 f0 fd ff ff    	pushq  -0x210(%rbp)
+    2f86:	48 8d 3d ba 5f 0c 00 	lea    0xc5fba(%rip),%rdi        # c8f47 <g_dyn_entry_table+0x107>
+    2f8d:	b8 00 00 00 00       	mov    $0x0,%eax
+    2f92:	e8 92 f7 ff ff       	callq  2729 <printf>
+    2f97:	48 83 c4 20          	add    $0x20,%rsp
+    2f9b:	48 8d 95 40 fc ff ff 	lea    -0x3c0(%rbp),%rdx
+    2fa2:	48 8d 85 f0 fd ff ff 	lea    -0x210(%rbp),%rax
+    2fa9:	be 00 00 00 00       	mov    $0x0,%esi
+    2fae:	48 89 c7             	mov    %rax,%rdi
+    2fb1:	e8 bf fc ff ff       	callq  2c75 <_Z24sgx_create_report_definePK14_target_info_tPK18_sgx_report_data_tP9_report_t>
+    2fb6:	48 8d 85 40 fc ff ff 	lea    -0x3c0(%rbp),%rax
+    2fbd:	48 83 c0 40          	add    $0x40,%rax
+    2fc1:	48 89 c6             	mov    %rax,%rsi
+    2fc4:	48 8d 3d 95 5f 0c 00 	lea    0xc5f95(%rip),%rdi        # c8f60 <g_dyn_entry_table+0x120>
+    2fcb:	b8 00 00 00 00       	mov    $0x0,%eax
+    2fd0:	e8 54 f7 ff ff       	callq  2729 <printf>
+    2fd5:	90                   	nop
+    2fd6:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+    2fda:	64 48 33 04 25 28 00 	xor    %fs:0x28,%rax
+    2fe1:	00 00 
+    2fe3:	74 05                	je     2fea <worker+0x9d>
+    2fe5:	e8 de 3e 00 00       	callq  6ec8 <__stack_chk_fail>
+    2fea:	c9                   	leaveq 
+    2feb:	c3                   	retq   
+
+0000000000002fec <do_ereport_define>:
+    2fec:	53                   	push   %rbx
+    2fed:	51                   	push   %rcx
+    2fee:	52                   	push   %rdx
+    2fef:	48 89 fb             	mov    %rdi,%rbx
+    2ff2:	48 89 f1             	mov    %rsi,%rcx
+    2ff5:	48 c7 c0 00 00 00 00 	mov    $0x0,%rax
+    2ffc:	f8                   	clc    
+    2ffd:	0f 01 d7             	enclu  
+    3000:	0f 92 c0             	setb   %al
+    3003:	5a                   	pop    %rdx
+    3004:	59                   	pop    %rcx
+    3005:	5b                   	pop    %rbx
+    3006:	c3                   	retq   

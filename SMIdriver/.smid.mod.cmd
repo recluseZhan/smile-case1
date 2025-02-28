@@ -1,0 +1,1 @@
+cmd_/home/ray/sgx/sgx-step/app/test_enclave_design/SMIdriver/smid.mod := { echo  /home/ray/sgx/sgx-step/app/test_enclave_design/SMIdriver/smi.o; echo; } > /home/ray/sgx/sgx-step/app/test_enclave_design/SMIdriver/smid.mod

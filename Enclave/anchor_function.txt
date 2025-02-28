@@ -1,0 +1,99 @@
+/*interrogation core (icore) run the attested reporter in enclave mode
+monitor core (mcore) run the checking in smm
+
+step:
+1> icore run ssa copy
+1> mcore run ssa check
+
+2> icore run reporter page copy
+2> mcore run reporter page check
+
+3> icore run worker copy
+3> mcore run worker check
+
+4> icore run data copy?
+4> mcore run data check?
+
+
+use the shared memory to config the:
+             1  flag; set the no-epc fisrt address for space
+             2  destination address %rdi
+             3  source  address   %rsi 
+             4  counter   %rcx
+mcore set and icore read
+*/  
+
+/*In this version, two-region reading, we assumed that original enclave function will set the random data  to ssa, that means, we are only need to dump the epc memory to no-epc space
+   
+  Notes, the dumping context is controlled by monitor core, no matter how many times of dumping, the code of dumpping is the same. 
+
+  flag = 0, notes the monitor to get the dumping memory for checking
+  flag = 1, notes the reporter to dump the ssa frame and  dump the reporter frame page context;
+  flag = 2, notes the reporter to dump the worker code frame and dump the worker data frame; ? if needed;
+  
+  once flag >= 2, notes the reporter jumping to worker. actually, here is call instruction, due to the assembly code calling c code. 
+*/
+
+formal_reporter1:
+
+lockloop:                                   
+	mov (%r9), %r11                //read the flag
+	cmp $0x1, %r11                 //judge if the reporter begin dumping
+	jl lockloop                         //waiting.....
+	mov 0x8(%r9),%rdi            //get the destination addr
+dump_region_1:
+	mov 0x10(%r9),%rsi            //get the source addr
+	mov 0x18(%r9),%rcx          //get the counter
+	rep movsd                       //memory dump 
+dump_region_2:                
+                mov 0x20(%r9),%rsi           //get the source addr  -- the destination addr is increased
+	mov 0x28(%r9),%rcx         //get the counter
+	rep movsd                      //memory dump            
+	mov %r12, (%9)              //reset the flag to zero for next dumping
+	cmp $0x2, %r11             //judge if the reporter finished checking
+	jl lockloop                     //waiting .....
+	call worker                    //go to worker
+	retq
+
+   
+
+
+/*In this version, one-region reading, we assumed that original enclave function will set the random data  to ssa, that means, we are only need to dump the epc memory to no-epc space
+   
+  Notes, the dumping context is controlled by monitor core, no matter how many times of dumping, the code of dumpping is the same. 
+
+  flag = 0, notes the monitor to get the dumping memory for checking
+  flag = 1, notes the reporter to dump the ssa frame 
+  flag = 2, notes the reporter to dump the reporter frame page context;
+  flag = 3, notes the reporter to dump the worker code frame 
+  flag = 4, notes the reporter to dump the worker data frame; ? if needed;
+  
+  once flag >= 4, notes the reporter jumping to worker. actually, here is call instruction, due to the assembly code calling c code. 
+*/
+
+
+/*
+formal_reporter:
+
+lockloop:                                   
+	mov (%r9), %r11                //read the flag
+	cmp $0x1, %r11                 //judge if the reporter begin dumping
+	jl lockloop                         //waiting.....
+	mov 0x8(%r9),%rdi             //get the destination addr
+	mov 0x10(%r9),%rsi            //get the source addr
+	mov 0x18(%r9),%rcx            //get the counter
+dump_region:                
+	rep movsd                      //memory dump            
+	mov %r12, (%9)              //reset the flag to zero for next dumping
+	cmp $0x4, %r11             //judge if the reporter finished checking
+	jl lockloop                     //waiting .....
+	call worker                    //go to worker
+	retq
+*/
+
+
+
+
+
+
+

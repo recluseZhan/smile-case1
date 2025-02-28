@@ -1,0 +1,85 @@
+/*
+ *  This file is part of the SGX-Step enclave execution control framework.
+ *
+ *  Copyright (C) 2017 Jo Van Bulck <jo.vanbulck@cs.kuleuven.be>,
+ *                     Raoul Strackx <raoul.strackx@cs.kuleuven.be>
+ *
+ *  SGX-Step is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  SGX-Step is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with SGX-Step. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* 32-bit compatibility ~~following Intel SGX-SDK convention. */
+#if defined(M32)
+    #define xax  eax
+    #define xbx  ebx
+    #define xcx  ecx
+    #define xdi  edi
+    #define movx movl
+#else
+    #define xax  rax
+    #define xbx  rbx
+    #define xcx  rcx
+    #define xdi  rdi
+    #define movx movq
+#endif
+
+/* 
+ * ---------------------------------------------------------------------
+ * Function: sgx_step_trampoline
+ *      Code that will be returned to after interrupting an enclave.
+ *
+ * Registers:
+ *      XAX - ERESUME leaf
+ *      XBX - TSC address
+ *      XCX - AEP address
+ */
+    .text
+    .global sgx_step_aep_trampoline
+    .type sgx_step_aep_trampoline, @function
+sgx_step_aep_trampoline:
+    rdtsc
+    // mov $0x100000, %rbx    //using an address to store the time. 
+    // mov %rax, (%rbx)       //low time 
+    // mov $0x100004, %rbx 
+    // mov %rdx, (%rbx)       //high time 
+
+    //mov $0xFFFFDDDD, %rax  //change the virtual address by the SMM
+    //mov $0xaabbccdd, (%rax) //PreContext replace by the SMM
+
+    mov %xbx, sgx_step_tcs(%rip)
+
+    /* optional C function callback */
+    lea sgx_step_aep_cb(%rip), %xax
+    mov (%xax), %xax
+    test %xax, %xax
+    je .Leresume
+    call *%xax
+
+.Leresume:
+    add $1, sgx_step_eresume_cnt(%rip)
+    mov sgx_step_tcs(%rip), %xbx              /* TCS address */
+    lea sgx_step_aep_trampoline(%rip), %xcx   /* AEP address */
+
+    prefetch nemesis_tsc_eresume(%rip)
+    mfence
+
+    rdtsc
+    // mov $0x100008, %rbx    //using an address to store the time. 
+    // mov %rax, (%rbx)       //low time 
+    // mov $0x10000C, %rbx 
+    // mov %rdx, (%rbx)       //high time 
+
+    mov %eax, nemesis_tsc_eresume(%rip)
+
+    mov $3, %xax                        /* ERESUME leaf */
+    .byte 0x0f, 0x01, 0xd7              /* ENCLU */

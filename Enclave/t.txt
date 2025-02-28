@@ -1,0 +1,1285 @@
+</EnclaveConfiguration>
+[traverser_parameter manage_metadata.cpp:115] ProdID = 0
+[traverser_parameter manage_metadata.cpp:115] ISVSVN = 0
+[traverser_parameter manage_metadata.cpp:115] StackMaxSize = 0x40000
+[traverser_parameter manage_metadata.cpp:115] HeapMaxSize = 0x100000
+[traverser_parameter manage_metadata.cpp:115] TCSNum = 2
+[traverser_parameter manage_metadata.cpp:115] TCSPolicy = 1
+[traverser_parameter manage_metadata.cpp:115] DisableDebug = 0
+[traverser_parameter manage_metadata.cpp:115] MiscSelect = 0
+[traverser_parameter manage_metadata.cpp:115] MiscMask = 0xFFFFFFFF
+[parse_dyn elfparser.cpp:176] dynamic tag = 10, ptr = 0
+[parse_dyn elfparser.cpp:176] dynamic tag = 19, ptr = 2c5b78
+[parse_dyn elfparser.cpp:176] dynamic tag = 1b, ptr = 18
+[parse_dyn elfparser.cpp:176] dynamic tag = 1a, ptr = 2c5b90
+[parse_dyn elfparser.cpp:176] dynamic tag = 1c, ptr = 50
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffef5, ptr = 278
+[parse_dyn elfparser.cpp:176] dynamic tag = 5, ptr = 340
+[parse_dyn elfparser.cpp:176] dynamic tag = 6, ptr = 2b0
+[parse_dyn elfparser.cpp:176] dynamic tag = a, ptr = 4b
+[parse_dyn elfparser.cpp:176] dynamic tag = b, ptr = 18
+[parse_dyn elfparser.cpp:176] dynamic tag = 15, ptr = 0
+[parse_dyn elfparser.cpp:176] dynamic tag = 3, ptr = 2c5fc8
+[parse_dyn elfparser.cpp:176] dynamic tag = 7, ptr = 3d0
+[parse_dyn elfparser.cpp:176] dynamic tag = 8, ptr = 1068
+[parse_dyn elfparser.cpp:176] dynamic tag = 9, ptr = 18
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffffc, ptr = 398
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffffd, ptr = 2
+[parse_dyn elfparser.cpp:176] dynamic tag = 1e, ptr = a
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffffb, ptr = 8000001
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffff0, ptr = 38c
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffff9, ptr = ae
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad2c0, sh_offset = 1480, sh_name = 84
+[get_section elfparser.cpp:83] section [12] .nipx: sh_addr = ae740, sh_size = af9, sh_offset = ae740, sh_name = 8a
+[get_section elfparser.cpp:83] section [13] .rodata: sh_addr = af240, sh_size = 4a20, sh_offset = af240, sh_name = 90
+[get_section elfparser.cpp:83] section [14] .niprod: sh_addr = b3c80, sh_size = 8c0, sh_offset = b3c80, sh_name = 98
+[get_section elfparser.cpp:83] section [15] .eh_frame_hdr: sh_addr = b4540, sh_size = 1a9c, sh_offset = b4540, sh_name = a0
+[get_section elfparser.cpp:83] section [16] .eh_frame: sh_addr = b5fe0, sh_size = edb4, sh_offset = b5fe0, sh_name = ae
+[get_section elfparser.cpp:83] section [17] .gcc_except_table: sh_addr = c4d94, sh_size = a9, sh_offset = c4d94, sh_name = b8
+[get_section elfparser.cpp:83] section [18] .init_array: sh_addr = 2c5b78, sh_size = 18, sh_offset = c5b78, sh_name = ca
+[get_section elfparser.cpp:83] section [19] .fini_array: sh_addr = 2c5b90, sh_size = 50, sh_offset = c5b90, sh_name = d6
+[get_section elfparser.cpp:83] section [20] .data.rel.ro: sh_addr = 2c5be0, sh_size = 248, sh_offset = c5be0, sh_name = e2
+[get_section elfparser.cpp:83] section [21] .dynamic: sh_addr = 2c5e28, sh_size = 1a0, sh_offset = c5e28, sh_name = ef
+[get_section elfparser.cpp:83] section [22] .got: sh_addr = 2c5fc8, sh_size = 28, sh_offset = c5fc8, sh_name = 7f
+[get_section elfparser.cpp:83] section [23] .data: sh_addr = 2c6000, sh_size = 1038, sh_offset = c6000, sh_name = f8
+[get_section elfparser.cpp:83] section [24] .nipd: sh_addr = 2c7038, sh_size = 8, sh_offset = c7038, sh_name = fe
+[get_section elfparser.cpp:83] section [25] .bss: sh_addr = 2c7040, sh_size = ef60, sh_offset = c7040, sh_name = 104
+[get_section elfparser.cpp:83] section [26] .comment: sh_addr = 0, sh_size = 29, sh_offset = c7040, sh_name = 109
+[get_section elfparser.cpp:83] section [27] .note.sgxmeta: sh_addr = 0, sh_size = 501c, sh_offset = c706c, sh_name = 112
+[get_section elfparser.cpp:83] section [28] .debug_aranges: sh_addr = 0, sh_size = 4730, sh_offset = cc090, sh_name = 120
+[get_section elfparser.cpp:83] section [29] .debug_info: sh_addr = 0, sh_size = 675e5, sh_offset = d07c0, sh_name = 12f
+[get_section elfparser.cpp:83] section [30] .debug_abbrev: sh_addr = 0, sh_size = 101a1, sh_offset = 137da5, sh_name = 13b
+[get_section elfparser.cpp:83] section [31] .debug_line: sh_addr = 0, sh_size = 1b0fc, sh_offset = 147f46, sh_name = 149
+[get_section elfparser.cpp:83] section [32] .debug_str: sh_addr = 0, sh_size = 1ed06, sh_offset = 163042, sh_name = 155
+[get_section elfparser.cpp:83] section [33] .debug_loc: sh_addr = 0, sh_size = 1b4, sh_offset = 181d48, sh_name = 160
+[get_section elfparser.cpp:83] section [34] .debug_ranges: sh_addr = 0, sh_size = 4180, sh_offset = 181efc, sh_name = 16b
+[get_section elfparser.cpp:83] section [35] .symtab: sh_addr = 0, sh_size = fb70, sh_offset = 186080, sh_name = 1
+[get_section elfparser.cpp:83] section [36] .strtab: sh_addr = 0, sh_size = 972b, sh_offset = 195bf0, sh_name = 9
+[get_section elfparser.cpp:83] section [37] .shstrtab: sh_addr = 0, sh_size = 179, sh_offset = 19f31b, sh_name = 11
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad2c0, sh_offset = 1480, sh_name = 84
+[get_section elfparser.cpp:83] section [12] .nipx: sh_addr = ae740, sh_size = af9, sh_offset = ae740, sh_name = 8a
+[get_section elfparser.cpp:83] section [13] .rodata: sh_addr = af240, sh_size = 4a20, sh_offset = af240, sh_name = 90
+[get_section elfparser.cpp:83] section [14] .niprod: sh_addr = b3c80, sh_size = 8c0, sh_offset = b3c80, sh_name = 98
+[get_section elfparser.cpp:83] section [15] .eh_frame_hdr: sh_addr = b4540, sh_size = 1a9c, sh_offset = b4540, sh_name = a0
+[get_section elfparser.cpp:83] section [16] .eh_frame: sh_addr = b5fe0, sh_size = edb4, sh_offset = b5fe0, sh_name = ae
+[get_section elfparser.cpp:83] section [17] .gcc_except_table: sh_addr = c4d94, sh_size = a9, sh_offset = c4d94, sh_name = b8
+[get_section elfparser.cpp:83] section [18] .init_array: sh_addr = 2c5b78, sh_size = 18, sh_offset = c5b78, sh_name = ca
+[get_section elfparser.cpp:83] section [19] .fini_array: sh_addr = 2c5b90, sh_size = 50, sh_offset = c5b90, sh_name = d6
+[get_section elfparser.cpp:83] section [20] .data.rel.ro: sh_addr = 2c5be0, sh_size = 248, sh_offset = c5be0, sh_name = e2
+[get_section elfparser.cpp:83] section [21] .dynamic: sh_addr = 2c5e28, sh_size = 1a0, sh_offset = c5e28, sh_name = ef
+[get_section elfparser.cpp:83] section [22] .got: sh_addr = 2c5fc8, sh_size = 28, sh_offset = c5fc8, sh_name = 7f
+[get_section elfparser.cpp:83] section [23] .data: sh_addr = 2c6000, sh_size = 1038, sh_offset = c6000, sh_name = f8
+[get_section elfparser.cpp:83] section [24] .nipd: sh_addr = 2c7038, sh_size = 8, sh_offset = c7038, sh_name = fe
+[get_section elfparser.cpp:83] section [25] .bss: sh_addr = 2c7040, sh_size = ef60, sh_offset = c7040, sh_name = 104
+[get_section elfparser.cpp:83] section [26] .comment: sh_addr = 0, sh_size = 29, sh_offset = c7040, sh_name = 109
+[get_section elfparser.cpp:83] section [27] .note.sgxmeta: sh_addr = 0, sh_size = 501c, sh_offset = c706c, sh_name = 112
+LOAD Section: 1
+Flags = 0x0000000000000005
+VAddr = 0x0000000000000000
+Size  = 0x00000000000C4E3D
+
+LOAD Section: 2
+Flags = 0x0000000000000006
+VAddr = 0x00000000002C5B78
+Size  = 0x0000000000010428
+
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad2c0, sh_offset = 1480, sh_name = 84
+[get_section elfparser.cpp:83] section [12] .nipx: sh_addr = ae740, sh_size = af9, sh_offset = ae740, sh_name = 8a
+[get_section elfparser.cpp:83] section [13] .rodata: sh_addr = af240, sh_size = 4a20, sh_offset = af240, sh_name = 90
+[get_section elfparser.cpp:83] section [14] .niprod: sh_addr = b3c80, sh_size = 8c0, sh_offset = b3c80, sh_name = 98
+[get_section elfparser.cpp:83] section [15] .eh_frame_hdr: sh_addr = b4540, sh_size = 1a9c, sh_offset = b4540, sh_name = a0
+[get_section elfparser.cpp:83] section [16] .eh_frame: sh_addr = b5fe0, sh_size = edb4, sh_offset = b5fe0, sh_name = ae
+[get_section elfparser.cpp:83] section [17] .gcc_except_table: sh_addr = c4d94, sh_size = a9, sh_offset = c4d94, sh_name = b8
+[get_section elfparser.cpp:83] section [18] .init_array: sh_addr = 2c5b78, sh_size = 18, sh_offset = c5b78, sh_name = ca
+[get_section elfparser.cpp:83] section [19] .fini_array: sh_addr = 2c5b90, sh_size = 50, sh_offset = c5b90, sh_name = d6
+[get_section elfparser.cpp:83] section [20] .data.rel.ro: sh_addr = 2c5be0, sh_size = 248, sh_offset = c5be0, sh_name = e2
+[get_section elfparser.cpp:83] section [21] .dynamic: sh_addr = 2c5e28, sh_size = 1a0, sh_offset = c5e28, sh_name = ef
+[get_section elfparser.cpp:83] section [22] .got: sh_addr = 2c5fc8, sh_size = 28, sh_offset = c5fc8, sh_name = 7f
+[get_section elfparser.cpp:83] section [23] .data: sh_addr = 2c6000, sh_size = 1038, sh_offset = c6000, sh_name = f8
+[get_section elfparser.cpp:83] section [24] .nipd: sh_addr = 2c7038, sh_size = 8, sh_offset = c7038, sh_name = fe
+[get_section elfparser.cpp:83] section [25] .bss: sh_addr = 2c7040, sh_size = ef60, sh_offset = c7040, sh_name = 104
+[get_section elfparser.cpp:83] section [26] .comment: sh_addr = 0, sh_size = 29, sh_offset = c7040, sh_name = 109
+[get_section elfparser.cpp:83] section [27] .note.sgxmeta: sh_addr = 0, sh_size = 501c, sh_offset = c706c, sh_name = 112
+[get_section elfparser.cpp:83] section [28] .debug_aranges: sh_addr = 0, sh_size = 4730, sh_offset = cc090, sh_name = 120
+[get_section elfparser.cpp:83] section [29] .debug_info: sh_addr = 0, sh_size = 675e5, sh_offset = d07c0, sh_name = 12f
+[get_section elfparser.cpp:83] section [30] .debug_abbrev: sh_addr = 0, sh_size = 101a1, sh_offset = 137da5, sh_name = 13b
+[get_section elfparser.cpp:83] section [31] .debug_line: sh_addr = 0, sh_size = 1b0fc, sh_offset = 147f46, sh_name = 149
+[get_section elfparser.cpp:83] section [32] .debug_str: sh_addr = 0, sh_size = 1ed06, sh_offset = 163042, sh_name = 155
+[get_section elfparser.cpp:83] section [33] .debug_loc: sh_addr = 0, sh_size = 1b4, sh_offset = 181d48, sh_name = 160
+[get_section elfparser.cpp:83] section [34] .debug_ranges: sh_addr = 0, sh_size = 4180, sh_offset = 181efc, sh_name = 16b
+[get_section elfparser.cpp:83] section [35] .symtab: sh_addr = 0, sh_size = fb70, sh_offset = 186080, sh_name = 1
+[get_section elfparser.cpp:83] section [36] .strtab: sh_addr = 0, sh_size = 972b, sh_offset = 195bf0, sh_name = 9
+[get_section elfparser.cpp:83] section [37] .shstrtab: sh_addr = 0, sh_size = 179, sh_offset = 19f31b, sh_name = 11
+tcs_num 2, tcs_max_num 2, tcs_min_pool 1
+[check_xml_parameter manage_metadata.cpp:489] RSRV_MIN_SIZE  = 0x0000000000000000
+[check_xml_parameter manage_metadata.cpp:490] RSRV_INIT_SIZE = 0x0000000000000000
+[check_xml_parameter manage_metadata.cpp:491] RSRV_MAX_SIZE  = 0x0000000000000000
+[update_layout_entries manage_metadata.cpp:521] 
+	Entry Id( 0) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D6FFF
+	Entry Id( 1) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x19,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D5FFF
+	Entry Id( 2) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E5FFF
+	Entry Id( 3) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x5B,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000423FFF
+	Entry Id( 4) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000425FFF
+	Entry Id( 5) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000435FFF
+	Entry Id( 6) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000436FFF
+	Entry Id( 7) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000438FFF
+	Entry Id( 8) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000448FFF
+	Entry Id( 9) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x0000000000449FFF
+	Entry Id(10) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000044A000 --- 0x0000000000459FFF
+	Entry Id(11) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x43,  Flags = 0x0000000000000203,  RVA = 0x000000000045A000 --- 0x0000000000497FFF
+	Entry Id(12) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000498000 --- 0x0000000000499FFF
+	Entry Id(13) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000049A000 --- 0x00000000004A9FFF
+	Entry Id(14) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x00000000004AA000 --- 0x00000000004AAFFF
+	Entry Id(15) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004AB000 --- 0x00000000004ACFFF
+	Entry Id(16) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004AD000 --- 0x00000000004BCFFF
+	Entry Id(17) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004BD000 --- 0x00000000004BDFFF
+[build_layout_entries manage_metadata.cpp:557] 
+Enclave: Size = 0x00000000004BE000, Rounded Size = 0x0000000000800000
+	Entry Id( 0) =   10, GUARD           ,  Page Count =   834,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004BE000 --- 0x00000000007FFFFF
+[do_update_global_data update_global_data.hxx:100] 
+Global Data:
+	Enclave size     = 0x0000000000800000
+	Heap Offset      = 0x00000000002D6000
+	Heap Size        = 0x0000000000100000
+	Rsrv Offset      = 0x0000000000000000
+	Rsrv Size        = 0x0000000000000000
+	Thread Policy    = 0x0000000000000001
+	Layout Table:
+	Entry Id( 1) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D7000
+	Entry Id( 2) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x19,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D6000
+	Entry Id( 3) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E6000
+	Entry Id( 4) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x5B,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000424000
+	Entry Id( 5) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000426000
+	Entry Id( 6) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000436000
+	Entry Id( 7) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000437000
+	Entry Id( 8) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000439000
+	Entry Id( 9) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000449000
+	Entry Id(10) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x000000000044A000
+	Entry Id(11) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000044A000 --- 0x000000000045A000
+	Entry Id(12) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x43,  Flags = 0x0000000000000203,  RVA = 0x000000000045A000 --- 0x0000000000498000
+	Entry Id(13) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000498000 --- 0x000000000049A000
+	Entry Id(14) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000049A000 --- 0x00000000004AA000
+	Entry Id(15) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x00000000004AA000 --- 0x00000000004AB000
+	Entry Id(16) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004AB000 --- 0x00000000004AD000
+	Entry Id(17) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004AD000 --- 0x00000000004BD000
+	Entry Id(18) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004BD000 --- 0x00000000004BE000
+	Entry Id(19) =   10, GUARD           ,  Page Count =   834,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004BE000 --- 0x0000000000800000
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_reloc_entry_offset elfparser.cpp:849] found section '.plt' - offset 0x1440, size 0x10
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_reloc_entry_offset elfparser.cpp:849] found section '.plt.got' - offset 0x1450, size 0x8
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad2c0, sh_offset = 1480, sh_name = 84
+[get_reloc_entry_offset elfparser.cpp:849] found section '.text' - offset 0x1480, size 0xad2c0
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad2c0, sh_offset = 1480, sh_name = 84
+[get_section elfparser.cpp:83] section [12] .nipx: sh_addr = ae740, sh_size = af9, sh_offset = ae740, sh_name = 8a
+[get_reloc_entry_offset elfparser.cpp:849] found section '.nipx' - offset 0xae740, size 0xaf9
+[build_secs /home/ray/EMEL/sgx-step/linux-sgx/psw/urts/loader.cpp:542] Enclave start addr. = (nil), Size = 0x800000, 8192 KB
+[build_image /home/ray/EMEL/sgx-step/linux-sgx/psw/urts/loader.cpp:585] 
+	Metadata Version = 0x0000000200000004
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    1, HEAP_MIN        , Page Count =     1, Attributes = 0x01, Flags = 0x0000000000000203, RVA = 0x00000000002D6000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    1, HEAP_MIN        , Page Count =     1, Attributes = 0x01, Flags = 0x0000000000000203, RVA = 0x00000000002D6000 -> RVA = 0x00000000002D6000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    2, HEAP_INIT       , Page Count =   255, Attributes = 0x19, Flags = 0x0000000000000203, RVA = 0x00000000002D7000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    2, HEAP_INIT       , Page Count =   255, Attributes = 0x19, Flags = 0x0000000000000203, RVA = 0x00000000002D7000 -> RVA = 0x00000000002D7000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000003D6000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000003D6000 -> RVA = 0x00000000003D6000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    7, STACK_MAX       , Page Count =    62, Attributes = 0x5B, Flags = 0x0000000000000203, RVA = 0x00000000003E6000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    7, STACK_MAX       , Page Count =    62, Attributes = 0x5B, Flags = 0x0000000000000203, RVA = 0x00000000003E6000 -> RVA = 0x00000000003E6000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000424000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000424000 -> RVA = 0x0000000000424000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000426000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000426000 -> RVA = 0x0000000000426000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x0000000000436000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x0000000000436000 -> RVA = 0x0000000000436000
+LEI: loader.cpp 1-th print ptcs->oentry :  aeecb
+LEI: loader.cpp Modified TCS address 7ffeead1f420 and its ptcs->oentry :  aeecb
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000437000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000437000 -> RVA = 0x0000000000437000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000439000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000439000 -> RVA = 0x0000000000439000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000449000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000449000 -> RVA = 0x0000000000449000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x000000000044A000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x000000000044A000 -> RVA = 0x000000000044A000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    7, STACK_MAX       , Page Count =    62, Attributes = 0x43, Flags = 0x0000000000000203, RVA = 0x000000000045A000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    7, STACK_MAX       , Page Count =    62, Attributes = 0x43, Flags = 0x0000000000000203, RVA = 0x000000000045A000 -> RVA = 0x000000000045A000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000498000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000498000 -> RVA = 0x0000000000498000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x000000000049A000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x000000000049A000 -> RVA = 0x000000000049A000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x00000000004AA000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x00000000004AA000 -> RVA = 0x00000000004AA000
+LEI: loader.cpp 2-th print ptcs->oentry :  1ae9
+LEI: loader.cpp Modified TCS address 7ffeead1f420 and its ptcs->oentry :  1ae9
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x00000000004AB000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x00000000004AB000 -> RVA = 0x00000000004AB000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000004AD000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000004AD000 -> RVA = 0x00000000004AD000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x00000000004BD000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x00000000004BD000 -> RVA = 0x00000000004BD000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =   834, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000004BE000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =   834, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000004BE000 -> RVA = 0x00000000004BE000
+[measure_enclave sign_tool.cpp:239] 
+The required memory is 2482176B.
+The required memory is 0x25e000, 2424 KB.
+[generate_compatible_metadata sign_tool.cpp:1060] 
+[dump_metadata_layout sign_tool.cpp:828] 
+	Metadata Version = 0x0000000200000004
+	Entry Id( 0) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D7000
+	Entry Id( 1) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x19,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D6000
+	Entry Id( 2) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E6000
+	Entry Id( 3) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x5B,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000424000
+	Entry Id( 4) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000426000
+	Entry Id( 5) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000436000
+	Entry Id( 6) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000437000
+	Entry Id( 7) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000439000
+	Entry Id( 8) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000449000
+	Entry Id( 9) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x000000000044A000
+	Entry Id(10) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000044A000 --- 0x000000000045A000
+	Entry Id(11) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x43,  Flags = 0x0000000000000203,  RVA = 0x000000000045A000 --- 0x0000000000498000
+	Entry Id(12) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000498000 --- 0x000000000049A000
+	Entry Id(13) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000049A000 --- 0x00000000004AA000
+	Entry Id(14) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x00000000004AA000 --- 0x00000000004AB000
+	Entry Id(15) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004AB000 --- 0x00000000004AD000
+	Entry Id(16) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004AD000 --- 0x00000000004BD000
+	Entry Id(17) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004BD000 --- 0x00000000004BE000
+	Entry Id(18) =   10, GUARD           ,  Page Count =   834,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004BE000 --- 0x0000000000800000
+[dump_metadata_layout sign_tool.cpp:828] 
+	Metadata Version = 0x0000000200000001
+	Entry Id( 0) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D7000
+	Entry Id( 1) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x19,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D6000
+	Entry Id( 2) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E6000
+	Entry Id( 3) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x5B,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000424000
+	Entry Id( 4) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000426000
+	Entry Id( 5) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000436000
+	Entry Id( 6) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000437000
+	Entry Id( 7) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000439000
+	Entry Id( 8) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000449000
+	Entry Id( 9) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x000000000044A000
+	Entry Id(10) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000044A000 --- 0x000000000045A000
+	Entry Id(11) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x43,  Flags = 0x0000000000000203,  RVA = 0x000000000045A000 --- 0x0000000000498000
+	Entry Id(12) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000498000 --- 0x000000000049A000
+	Entry Id(13) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000049A000 --- 0x00000000004AA000
+	Entry Id(14) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x00000000004AA000 --- 0x00000000004AB000
+	Entry Id(15) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004AB000 --- 0x00000000004AD000
+	Entry Id(16) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004AD000 --- 0x00000000004BD000
+	Entry Id(17) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004BD000 --- 0x00000000004BE000
+	Entry Id(18) =   10, GUARD           ,  Page Count =   834,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004BE000 --- 0x0000000000800000
+[dump_metadata_layout sign_tool.cpp:828] 
+	Metadata Version = 0x0000000100000004
+	Entry Id( 0) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D7000
+	Entry Id( 1) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x11,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D6000
+	Entry Id( 2) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E6000
+	Entry Id( 3) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x53,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000424000
+	Entry Id( 4) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000426000
+	Entry Id( 5) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000436000
+	Entry Id( 6) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000437000
+	Entry Id( 7) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000439000
+	Entry Id( 8) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000449000
+	Entry Id( 9) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x000000000044A000
+	Entry Id(10) = 4105, THREAD_GROUP    ,  Entry Count =    8,  Load Times = 1,     LStep = 0x0000000000074000
+Succeed.
+SIGN =>  libenclave1.so
+GEN  =>  Enclave2/Enclave2_t.h
+CC   <=  Enclave2/Enclave2_t.c
+CXX  <=  Enclave2/Enclave2.cpp
+CXX  <=  Enclave2/Utility_E2.cpp
+LINK =>  Enclave2.so
+<EnclaveConfiguration>
+    <ProdID>0</ProdID>
+    <ISVSVN>0</ISVSVN>
+    <StackMaxSize>0x40000</StackMaxSize>
+    <HeapMaxSize>0x100000</HeapMaxSize>
+    <TCSNum>2</TCSNum>
+    <TCSPolicy>1</TCSPolicy>
+    <!-- Recommend changing 'DisableDebug' to 1 to make the enclave undebuggable for enclave release -->
+    <DisableDebug>0</DisableDebug>
+    <MiscSelect>0</MiscSelect>
+    <MiscMask>0xFFFFFFFF</MiscMask>
+</EnclaveConfiguration>
+[traverser_parameter manage_metadata.cpp:115] ProdID = 0
+[traverser_parameter manage_metadata.cpp:115] ISVSVN = 0
+[traverser_parameter manage_metadata.cpp:115] StackMaxSize = 0x40000
+[traverser_parameter manage_metadata.cpp:115] HeapMaxSize = 0x100000
+[traverser_parameter manage_metadata.cpp:115] TCSNum = 2
+[traverser_parameter manage_metadata.cpp:115] TCSPolicy = 1
+[traverser_parameter manage_metadata.cpp:115] DisableDebug = 0
+[traverser_parameter manage_metadata.cpp:115] MiscSelect = 0
+[traverser_parameter manage_metadata.cpp:115] MiscMask = 0xFFFFFFFF
+[parse_dyn elfparser.cpp:176] dynamic tag = 10, ptr = 0
+[parse_dyn elfparser.cpp:176] dynamic tag = 19, ptr = 2c5b78
+[parse_dyn elfparser.cpp:176] dynamic tag = 1b, ptr = 18
+[parse_dyn elfparser.cpp:176] dynamic tag = 1a, ptr = 2c5b90
+[parse_dyn elfparser.cpp:176] dynamic tag = 1c, ptr = 50
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffef5, ptr = 278
+[parse_dyn elfparser.cpp:176] dynamic tag = 5, ptr = 340
+[parse_dyn elfparser.cpp:176] dynamic tag = 6, ptr = 2b0
+[parse_dyn elfparser.cpp:176] dynamic tag = a, ptr = 4b
+[parse_dyn elfparser.cpp:176] dynamic tag = b, ptr = 18
+[parse_dyn elfparser.cpp:176] dynamic tag = 15, ptr = 0
+[parse_dyn elfparser.cpp:176] dynamic tag = 3, ptr = 2c5fc8
+[parse_dyn elfparser.cpp:176] dynamic tag = 7, ptr = 3d0
+[parse_dyn elfparser.cpp:176] dynamic tag = 8, ptr = 1068
+[parse_dyn elfparser.cpp:176] dynamic tag = 9, ptr = 18
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffffc, ptr = 398
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffffd, ptr = 2
+[parse_dyn elfparser.cpp:176] dynamic tag = 1e, ptr = a
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffffb, ptr = 8000001
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffff0, ptr = 38c
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffff9, ptr = ae
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad180, sh_offset = 1480, sh_name = 84
+[get_section elfparser.cpp:83] section [12] .nipx: sh_addr = ae600, sh_size = af9, sh_offset = ae600, sh_name = 8a
+[get_section elfparser.cpp:83] section [13] .rodata: sh_addr = af100, sh_size = 4a20, sh_offset = af100, sh_name = 90
+[get_section elfparser.cpp:83] section [14] .niprod: sh_addr = b3b40, sh_size = 8c0, sh_offset = b3b40, sh_name = 98
+[get_section elfparser.cpp:83] section [15] .eh_frame_hdr: sh_addr = b4400, sh_size = 1a9c, sh_offset = b4400, sh_name = a0
+[get_section elfparser.cpp:83] section [16] .eh_frame: sh_addr = b5ea0, sh_size = edb4, sh_offset = b5ea0, sh_name = ae
+[get_section elfparser.cpp:83] section [17] .gcc_except_table: sh_addr = c4c54, sh_size = a9, sh_offset = c4c54, sh_name = b8
+[get_section elfparser.cpp:83] section [18] .init_array: sh_addr = 2c5b78, sh_size = 18, sh_offset = c5b78, sh_name = ca
+[get_section elfparser.cpp:83] section [19] .fini_array: sh_addr = 2c5b90, sh_size = 50, sh_offset = c5b90, sh_name = d6
+[get_section elfparser.cpp:83] section [20] .data.rel.ro: sh_addr = 2c5be0, sh_size = 248, sh_offset = c5be0, sh_name = e2
+[get_section elfparser.cpp:83] section [21] .dynamic: sh_addr = 2c5e28, sh_size = 1a0, sh_offset = c5e28, sh_name = ef
+[get_section elfparser.cpp:83] section [22] .got: sh_addr = 2c5fc8, sh_size = 28, sh_offset = c5fc8, sh_name = 7f
+[get_section elfparser.cpp:83] section [23] .data: sh_addr = 2c6000, sh_size = 1040, sh_offset = c6000, sh_name = f8
+[get_section elfparser.cpp:83] section [24] .nipd: sh_addr = 2c7040, sh_size = 8, sh_offset = c7040, sh_name = fe
+[get_section elfparser.cpp:83] section [25] .bss: sh_addr = 2c7060, sh_size = ef60, sh_offset = c7048, sh_name = 104
+[get_section elfparser.cpp:83] section [26] .comment: sh_addr = 0, sh_size = 29, sh_offset = c7048, sh_name = 109
+[get_section elfparser.cpp:83] section [27] .note.sgxmeta: sh_addr = 0, sh_size = 501c, sh_offset = c7074, sh_name = 112
+[get_section elfparser.cpp:83] section [28] .debug_aranges: sh_addr = 0, sh_size = 3b20, sh_offset = cc090, sh_name = 120
+[get_section elfparser.cpp:83] section [29] .debug_info: sh_addr = 0, sh_size = 5e712, sh_offset = cfbb0, sh_name = 12f
+[get_section elfparser.cpp:83] section [30] .debug_abbrev: sh_addr = 0, sh_size = da11, sh_offset = 12e2c2, sh_name = 13b
+[get_section elfparser.cpp:83] section [31] .debug_line: sh_addr = 0, sh_size = 15c0c, sh_offset = 13bcd3, sh_name = 149
+[get_section elfparser.cpp:83] section [32] .debug_str: sh_addr = 0, sh_size = 1d025, sh_offset = 1518df, sh_name = 155
+[get_section elfparser.cpp:83] section [33] .debug_loc: sh_addr = 0, sh_size = 1b4, sh_offset = 16e904, sh_name = 160
+[get_section elfparser.cpp:83] section [34] .debug_ranges: sh_addr = 0, sh_size = 3760, sh_offset = 16eab8, sh_name = 16b
+[get_section elfparser.cpp:83] section [35] .symtab: sh_addr = 0, sh_size = e688, sh_offset = 172218, sh_name = 1
+[get_section elfparser.cpp:83] section [36] .strtab: sh_addr = 0, sh_size = 8e51, sh_offset = 1808a0, sh_name = 9
+[get_section elfparser.cpp:83] section [37] .shstrtab: sh_addr = 0, sh_size = 179, sh_offset = 1896f1, sh_name = 11
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad180, sh_offset = 1480, sh_name = 84
+[get_section elfparser.cpp:83] section [12] .nipx: sh_addr = ae600, sh_size = af9, sh_offset = ae600, sh_name = 8a
+[get_section elfparser.cpp:83] section [13] .rodata: sh_addr = af100, sh_size = 4a20, sh_offset = af100, sh_name = 90
+[get_section elfparser.cpp:83] section [14] .niprod: sh_addr = b3b40, sh_size = 8c0, sh_offset = b3b40, sh_name = 98
+[get_section elfparser.cpp:83] section [15] .eh_frame_hdr: sh_addr = b4400, sh_size = 1a9c, sh_offset = b4400, sh_name = a0
+[get_section elfparser.cpp:83] section [16] .eh_frame: sh_addr = b5ea0, sh_size = edb4, sh_offset = b5ea0, sh_name = ae
+[get_section elfparser.cpp:83] section [17] .gcc_except_table: sh_addr = c4c54, sh_size = a9, sh_offset = c4c54, sh_name = b8
+[get_section elfparser.cpp:83] section [18] .init_array: sh_addr = 2c5b78, sh_size = 18, sh_offset = c5b78, sh_name = ca
+[get_section elfparser.cpp:83] section [19] .fini_array: sh_addr = 2c5b90, sh_size = 50, sh_offset = c5b90, sh_name = d6
+[get_section elfparser.cpp:83] section [20] .data.rel.ro: sh_addr = 2c5be0, sh_size = 248, sh_offset = c5be0, sh_name = e2
+[get_section elfparser.cpp:83] section [21] .dynamic: sh_addr = 2c5e28, sh_size = 1a0, sh_offset = c5e28, sh_name = ef
+[get_section elfparser.cpp:83] section [22] .got: sh_addr = 2c5fc8, sh_size = 28, sh_offset = c5fc8, sh_name = 7f
+[get_section elfparser.cpp:83] section [23] .data: sh_addr = 2c6000, sh_size = 1040, sh_offset = c6000, sh_name = f8
+[get_section elfparser.cpp:83] section [24] .nipd: sh_addr = 2c7040, sh_size = 8, sh_offset = c7040, sh_name = fe
+[get_section elfparser.cpp:83] section [25] .bss: sh_addr = 2c7060, sh_size = ef60, sh_offset = c7048, sh_name = 104
+[get_section elfparser.cpp:83] section [26] .comment: sh_addr = 0, sh_size = 29, sh_offset = c7048, sh_name = 109
+[get_section elfparser.cpp:83] section [27] .note.sgxmeta: sh_addr = 0, sh_size = 501c, sh_offset = c7074, sh_name = 112
+LOAD Section: 1
+Flags = 0x0000000000000005
+VAddr = 0x0000000000000000
+Size  = 0x00000000000C4CFD
+
+LOAD Section: 2
+Flags = 0x0000000000000006
+VAddr = 0x00000000002C5B78
+Size  = 0x0000000000010448
+
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad180, sh_offset = 1480, sh_name = 84
+[get_section elfparser.cpp:83] section [12] .nipx: sh_addr = ae600, sh_size = af9, sh_offset = ae600, sh_name = 8a
+[get_section elfparser.cpp:83] section [13] .rodata: sh_addr = af100, sh_size = 4a20, sh_offset = af100, sh_name = 90
+[get_section elfparser.cpp:83] section [14] .niprod: sh_addr = b3b40, sh_size = 8c0, sh_offset = b3b40, sh_name = 98
+[get_section elfparser.cpp:83] section [15] .eh_frame_hdr: sh_addr = b4400, sh_size = 1a9c, sh_offset = b4400, sh_name = a0
+[get_section elfparser.cpp:83] section [16] .eh_frame: sh_addr = b5ea0, sh_size = edb4, sh_offset = b5ea0, sh_name = ae
+[get_section elfparser.cpp:83] section [17] .gcc_except_table: sh_addr = c4c54, sh_size = a9, sh_offset = c4c54, sh_name = b8
+[get_section elfparser.cpp:83] section [18] .init_array: sh_addr = 2c5b78, sh_size = 18, sh_offset = c5b78, sh_name = ca
+[get_section elfparser.cpp:83] section [19] .fini_array: sh_addr = 2c5b90, sh_size = 50, sh_offset = c5b90, sh_name = d6
+[get_section elfparser.cpp:83] section [20] .data.rel.ro: sh_addr = 2c5be0, sh_size = 248, sh_offset = c5be0, sh_name = e2
+[get_section elfparser.cpp:83] section [21] .dynamic: sh_addr = 2c5e28, sh_size = 1a0, sh_offset = c5e28, sh_name = ef
+[get_section elfparser.cpp:83] section [22] .got: sh_addr = 2c5fc8, sh_size = 28, sh_offset = c5fc8, sh_name = 7f
+[get_section elfparser.cpp:83] section [23] .data: sh_addr = 2c6000, sh_size = 1040, sh_offset = c6000, sh_name = f8
+[get_section elfparser.cpp:83] section [24] .nipd: sh_addr = 2c7040, sh_size = 8, sh_offset = c7040, sh_name = fe
+[get_section elfparser.cpp:83] section [25] .bss: sh_addr = 2c7060, sh_size = ef60, sh_offset = c7048, sh_name = 104
+[get_section elfparser.cpp:83] section [26] .comment: sh_addr = 0, sh_size = 29, sh_offset = c7048, sh_name = 109
+[get_section elfparser.cpp:83] section [27] .note.sgxmeta: sh_addr = 0, sh_size = 501c, sh_offset = c7074, sh_name = 112
+[get_section elfparser.cpp:83] section [28] .debug_aranges: sh_addr = 0, sh_size = 3b20, sh_offset = cc090, sh_name = 120
+[get_section elfparser.cpp:83] section [29] .debug_info: sh_addr = 0, sh_size = 5e712, sh_offset = cfbb0, sh_name = 12f
+[get_section elfparser.cpp:83] section [30] .debug_abbrev: sh_addr = 0, sh_size = da11, sh_offset = 12e2c2, sh_name = 13b
+[get_section elfparser.cpp:83] section [31] .debug_line: sh_addr = 0, sh_size = 15c0c, sh_offset = 13bcd3, sh_name = 149
+[get_section elfparser.cpp:83] section [32] .debug_str: sh_addr = 0, sh_size = 1d025, sh_offset = 1518df, sh_name = 155
+[get_section elfparser.cpp:83] section [33] .debug_loc: sh_addr = 0, sh_size = 1b4, sh_offset = 16e904, sh_name = 160
+[get_section elfparser.cpp:83] section [34] .debug_ranges: sh_addr = 0, sh_size = 3760, sh_offset = 16eab8, sh_name = 16b
+[get_section elfparser.cpp:83] section [35] .symtab: sh_addr = 0, sh_size = e688, sh_offset = 172218, sh_name = 1
+[get_section elfparser.cpp:83] section [36] .strtab: sh_addr = 0, sh_size = 8e51, sh_offset = 1808a0, sh_name = 9
+[get_section elfparser.cpp:83] section [37] .shstrtab: sh_addr = 0, sh_size = 179, sh_offset = 1896f1, sh_name = 11
+tcs_num 2, tcs_max_num 2, tcs_min_pool 1
+[check_xml_parameter manage_metadata.cpp:489] RSRV_MIN_SIZE  = 0x0000000000000000
+[check_xml_parameter manage_metadata.cpp:490] RSRV_INIT_SIZE = 0x0000000000000000
+[check_xml_parameter manage_metadata.cpp:491] RSRV_MAX_SIZE  = 0x0000000000000000
+[update_layout_entries manage_metadata.cpp:521] 
+	Entry Id( 0) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D6FFF
+	Entry Id( 1) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x19,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D5FFF
+	Entry Id( 2) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E5FFF
+	Entry Id( 3) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x5B,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000423FFF
+	Entry Id( 4) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000425FFF
+	Entry Id( 5) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000435FFF
+	Entry Id( 6) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000436FFF
+	Entry Id( 7) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000438FFF
+	Entry Id( 8) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000448FFF
+	Entry Id( 9) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x0000000000449FFF
+	Entry Id(10) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000044A000 --- 0x0000000000459FFF
+	Entry Id(11) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x43,  Flags = 0x0000000000000203,  RVA = 0x000000000045A000 --- 0x0000000000497FFF
+	Entry Id(12) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000498000 --- 0x0000000000499FFF
+	Entry Id(13) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000049A000 --- 0x00000000004A9FFF
+	Entry Id(14) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x00000000004AA000 --- 0x00000000004AAFFF
+	Entry Id(15) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004AB000 --- 0x00000000004ACFFF
+	Entry Id(16) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004AD000 --- 0x00000000004BCFFF
+	Entry Id(17) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004BD000 --- 0x00000000004BDFFF
+[build_layout_entries manage_metadata.cpp:557] 
+Enclave: Size = 0x00000000004BE000, Rounded Size = 0x0000000000800000
+	Entry Id( 0) =   10, GUARD           ,  Page Count =   834,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004BE000 --- 0x00000000007FFFFF
+[do_update_global_data update_global_data.hxx:100] 
+Global Data:
+	Enclave size     = 0x0000000000800000
+	Heap Offset      = 0x00000000002D6000
+	Heap Size        = 0x0000000000100000
+	Rsrv Offset      = 0x0000000000000000
+	Rsrv Size        = 0x0000000000000000
+	Thread Policy    = 0x0000000000000001
+	Layout Table:
+	Entry Id( 1) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D7000
+	Entry Id( 2) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x19,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D6000
+	Entry Id( 3) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E6000
+	Entry Id( 4) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x5B,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000424000
+	Entry Id( 5) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000426000
+	Entry Id( 6) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000436000
+	Entry Id( 7) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000437000
+	Entry Id( 8) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000439000
+	Entry Id( 9) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000449000
+	Entry Id(10) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x000000000044A000
+	Entry Id(11) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000044A000 --- 0x000000000045A000
+	Entry Id(12) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x43,  Flags = 0x0000000000000203,  RVA = 0x000000000045A000 --- 0x0000000000498000
+	Entry Id(13) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000498000 --- 0x000000000049A000
+	Entry Id(14) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000049A000 --- 0x00000000004AA000
+	Entry Id(15) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x00000000004AA000 --- 0x00000000004AB000
+	Entry Id(16) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004AB000 --- 0x00000000004AD000
+	Entry Id(17) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004AD000 --- 0x00000000004BD000
+	Entry Id(18) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004BD000 --- 0x00000000004BE000
+	Entry Id(19) =   10, GUARD           ,  Page Count =   834,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004BE000 --- 0x0000000000800000
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_reloc_entry_offset elfparser.cpp:849] found section '.plt' - offset 0x1440, size 0x10
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_reloc_entry_offset elfparser.cpp:849] found section '.plt.got' - offset 0x1450, size 0x8
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad180, sh_offset = 1480, sh_name = 84
+[get_reloc_entry_offset elfparser.cpp:849] found section '.text' - offset 0x1480, size 0xad180
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad180, sh_offset = 1480, sh_name = 84
+[get_section elfparser.cpp:83] section [12] .nipx: sh_addr = ae600, sh_size = af9, sh_offset = ae600, sh_name = 8a
+[get_reloc_entry_offset elfparser.cpp:849] found section '.nipx' - offset 0xae600, size 0xaf9
+[build_secs /home/ray/EMEL/sgx-step/linux-sgx/psw/urts/loader.cpp:542] Enclave start addr. = (nil), Size = 0x800000, 8192 KB
+[build_image /home/ray/EMEL/sgx-step/linux-sgx/psw/urts/loader.cpp:585] 
+	Metadata Version = 0x0000000200000004
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    1, HEAP_MIN        , Page Count =     1, Attributes = 0x01, Flags = 0x0000000000000203, RVA = 0x00000000002D6000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    1, HEAP_MIN        , Page Count =     1, Attributes = 0x01, Flags = 0x0000000000000203, RVA = 0x00000000002D6000 -> RVA = 0x00000000002D6000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    2, HEAP_INIT       , Page Count =   255, Attributes = 0x19, Flags = 0x0000000000000203, RVA = 0x00000000002D7000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    2, HEAP_INIT       , Page Count =   255, Attributes = 0x19, Flags = 0x0000000000000203, RVA = 0x00000000002D7000 -> RVA = 0x00000000002D7000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000003D6000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000003D6000 -> RVA = 0x00000000003D6000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    7, STACK_MAX       , Page Count =    62, Attributes = 0x5B, Flags = 0x0000000000000203, RVA = 0x00000000003E6000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    7, STACK_MAX       , Page Count =    62, Attributes = 0x5B, Flags = 0x0000000000000203, RVA = 0x00000000003E6000 -> RVA = 0x00000000003E6000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000424000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000424000 -> RVA = 0x0000000000424000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000426000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000426000 -> RVA = 0x0000000000426000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x0000000000436000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x0000000000436000 -> RVA = 0x0000000000436000
+LEI: loader.cpp 1-th print ptcs->oentry :  aed8b
+LEI: loader.cpp Modified TCS address 7ffc3049c7a0 and its ptcs->oentry :  aed8b
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000437000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000437000 -> RVA = 0x0000000000437000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000439000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000439000 -> RVA = 0x0000000000439000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000449000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000449000 -> RVA = 0x0000000000449000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x000000000044A000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x000000000044A000 -> RVA = 0x000000000044A000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    7, STACK_MAX       , Page Count =    62, Attributes = 0x43, Flags = 0x0000000000000203, RVA = 0x000000000045A000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    7, STACK_MAX       , Page Count =    62, Attributes = 0x43, Flags = 0x0000000000000203, RVA = 0x000000000045A000 -> RVA = 0x000000000045A000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000498000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000498000 -> RVA = 0x0000000000498000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x000000000049A000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x000000000049A000 -> RVA = 0x000000000049A000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x00000000004AA000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x00000000004AA000 -> RVA = 0x00000000004AA000
+LEI: loader.cpp 2-th print ptcs->oentry :  1ae9
+LEI: loader.cpp Modified TCS address 7ffc3049c7a0 and its ptcs->oentry :  1ae9
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x00000000004AB000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x00000000004AB000 -> RVA = 0x00000000004AB000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000004AD000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000004AD000 -> RVA = 0x00000000004AD000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x00000000004BD000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x00000000004BD000 -> RVA = 0x00000000004BD000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =   834, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000004BE000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =   834, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000004BE000 -> RVA = 0x00000000004BE000
+[measure_enclave sign_tool.cpp:239] 
+The required memory is 2482176B.
+The required memory is 0x25e000, 2424 KB.
+[generate_compatible_metadata sign_tool.cpp:1060] 
+[dump_metadata_layout sign_tool.cpp:828] 
+	Metadata Version = 0x0000000200000004
+	Entry Id( 0) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D7000
+	Entry Id( 1) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x19,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D6000
+	Entry Id( 2) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E6000
+	Entry Id( 3) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x5B,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000424000
+	Entry Id( 4) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000426000
+	Entry Id( 5) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000436000
+	Entry Id( 6) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000437000
+	Entry Id( 7) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000439000
+	Entry Id( 8) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000449000
+	Entry Id( 9) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x000000000044A000
+	Entry Id(10) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000044A000 --- 0x000000000045A000
+	Entry Id(11) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x43,  Flags = 0x0000000000000203,  RVA = 0x000000000045A000 --- 0x0000000000498000
+	Entry Id(12) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000498000 --- 0x000000000049A000
+	Entry Id(13) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000049A000 --- 0x00000000004AA000
+	Entry Id(14) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x00000000004AA000 --- 0x00000000004AB000
+	Entry Id(15) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004AB000 --- 0x00000000004AD000
+	Entry Id(16) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004AD000 --- 0x00000000004BD000
+	Entry Id(17) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004BD000 --- 0x00000000004BE000
+	Entry Id(18) =   10, GUARD           ,  Page Count =   834,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004BE000 --- 0x0000000000800000
+[dump_metadata_layout sign_tool.cpp:828] 
+	Metadata Version = 0x0000000200000001
+	Entry Id( 0) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D7000
+	Entry Id( 1) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x19,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D6000
+	Entry Id( 2) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E6000
+	Entry Id( 3) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x5B,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000424000
+	Entry Id( 4) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000426000
+	Entry Id( 5) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000436000
+	Entry Id( 6) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000437000
+	Entry Id( 7) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000439000
+	Entry Id( 8) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000449000
+	Entry Id( 9) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x000000000044A000
+	Entry Id(10) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000044A000 --- 0x000000000045A000
+	Entry Id(11) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x43,  Flags = 0x0000000000000203,  RVA = 0x000000000045A000 --- 0x0000000000498000
+	Entry Id(12) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000498000 --- 0x000000000049A000
+	Entry Id(13) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000049A000 --- 0x00000000004AA000
+	Entry Id(14) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x00000000004AA000 --- 0x00000000004AB000
+	Entry Id(15) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004AB000 --- 0x00000000004AD000
+	Entry Id(16) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004AD000 --- 0x00000000004BD000
+	Entry Id(17) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004BD000 --- 0x00000000004BE000
+	Entry Id(18) =   10, GUARD           ,  Page Count =   834,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004BE000 --- 0x0000000000800000
+[dump_metadata_layout sign_tool.cpp:828] 
+	Metadata Version = 0x0000000100000004
+	Entry Id( 0) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D7000
+	Entry Id( 1) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x11,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D6000
+	Entry Id( 2) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E6000
+	Entry Id( 3) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x53,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000424000
+	Entry Id( 4) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000426000
+	Entry Id( 5) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000436000
+	Entry Id( 6) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000437000
+	Entry Id( 7) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000439000
+	Entry Id( 8) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000449000
+	Entry Id( 9) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x000000000044A000
+	Entry Id(10) = 4105, THREAD_GROUP    ,  Entry Count =    8,  Load Times = 1,     LStep = 0x0000000000074000
+Succeed.
+SIGN =>  libenclave2.so
+GEN  =>  Enclave3/Enclave3_t.h
+CC   <=  Enclave3/Enclave3_t.c
+CXX  <=  Enclave3/Enclave3.cpp
+CXX  <=  Enclave3/Utility_E3.cpp
+LINK =>  Enclave3.so
+<EnclaveConfiguration>
+    <ProdID>0</ProdID>
+    <ISVSVN>0</ISVSVN>
+    <StackMaxSize>0x40000</StackMaxSize>
+    <HeapMaxSize>0x100000</HeapMaxSize>
+    <TCSNum>2</TCSNum>
+    <TCSPolicy>1</TCSPolicy>
+    <!-- Recommend changing 'DisableDebug' to 1 to make the enclave undebuggable for enclave release -->
+    <DisableDebug>0</DisableDebug>
+    <MiscSelect>0</MiscSelect>
+    <MiscMask>0xFFFFFFFF</MiscMask>
+</EnclaveConfiguration>
+[traverser_parameter manage_metadata.cpp:115] ProdID = 0
+[traverser_parameter manage_metadata.cpp:115] ISVSVN = 0
+[traverser_parameter manage_metadata.cpp:115] StackMaxSize = 0x40000
+[traverser_parameter manage_metadata.cpp:115] HeapMaxSize = 0x100000
+[traverser_parameter manage_metadata.cpp:115] TCSNum = 2
+[traverser_parameter manage_metadata.cpp:115] TCSPolicy = 1
+[traverser_parameter manage_metadata.cpp:115] DisableDebug = 0
+[traverser_parameter manage_metadata.cpp:115] MiscSelect = 0
+[traverser_parameter manage_metadata.cpp:115] MiscMask = 0xFFFFFFFF
+[parse_dyn elfparser.cpp:176] dynamic tag = 10, ptr = 0
+[parse_dyn elfparser.cpp:176] dynamic tag = 19, ptr = 2c5b78
+[parse_dyn elfparser.cpp:176] dynamic tag = 1b, ptr = 18
+[parse_dyn elfparser.cpp:176] dynamic tag = 1a, ptr = 2c5b90
+[parse_dyn elfparser.cpp:176] dynamic tag = 1c, ptr = 50
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffef5, ptr = 278
+[parse_dyn elfparser.cpp:176] dynamic tag = 5, ptr = 340
+[parse_dyn elfparser.cpp:176] dynamic tag = 6, ptr = 2b0
+[parse_dyn elfparser.cpp:176] dynamic tag = a, ptr = 4b
+[parse_dyn elfparser.cpp:176] dynamic tag = b, ptr = 18
+[parse_dyn elfparser.cpp:176] dynamic tag = 15, ptr = 0
+[parse_dyn elfparser.cpp:176] dynamic tag = 3, ptr = 2c5fc8
+[parse_dyn elfparser.cpp:176] dynamic tag = 7, ptr = 3d0
+[parse_dyn elfparser.cpp:176] dynamic tag = 8, ptr = 1068
+[parse_dyn elfparser.cpp:176] dynamic tag = 9, ptr = 18
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffffc, ptr = 398
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffffd, ptr = 2
+[parse_dyn elfparser.cpp:176] dynamic tag = 1e, ptr = a
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffffb, ptr = 8000001
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffff0, ptr = 38c
+[parse_dyn elfparser.cpp:176] dynamic tag = 6ffffff9, ptr = ae
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad300, sh_offset = 1480, sh_name = 84
+[get_section elfparser.cpp:83] section [12] .nipx: sh_addr = ae780, sh_size = af9, sh_offset = ae780, sh_name = 8a
+[get_section elfparser.cpp:83] section [13] .rodata: sh_addr = af280, sh_size = 4a20, sh_offset = af280, sh_name = 90
+[get_section elfparser.cpp:83] section [14] .niprod: sh_addr = b3cc0, sh_size = 8c0, sh_offset = b3cc0, sh_name = 98
+[get_section elfparser.cpp:83] section [15] .eh_frame_hdr: sh_addr = b4580, sh_size = 1a9c, sh_offset = b4580, sh_name = a0
+[get_section elfparser.cpp:83] section [16] .eh_frame: sh_addr = b6020, sh_size = edb4, sh_offset = b6020, sh_name = ae
+[get_section elfparser.cpp:83] section [17] .gcc_except_table: sh_addr = c4dd4, sh_size = a9, sh_offset = c4dd4, sh_name = b8
+[get_section elfparser.cpp:83] section [18] .init_array: sh_addr = 2c5b78, sh_size = 18, sh_offset = c5b78, sh_name = ca
+[get_section elfparser.cpp:83] section [19] .fini_array: sh_addr = 2c5b90, sh_size = 50, sh_offset = c5b90, sh_name = d6
+[get_section elfparser.cpp:83] section [20] .data.rel.ro: sh_addr = 2c5be0, sh_size = 248, sh_offset = c5be0, sh_name = e2
+[get_section elfparser.cpp:83] section [21] .dynamic: sh_addr = 2c5e28, sh_size = 1a0, sh_offset = c5e28, sh_name = ef
+[get_section elfparser.cpp:83] section [22] .got: sh_addr = 2c5fc8, sh_size = 28, sh_offset = c5fc8, sh_name = 7f
+[get_section elfparser.cpp:83] section [23] .data: sh_addr = 2c6000, sh_size = 1040, sh_offset = c6000, sh_name = f8
+[get_section elfparser.cpp:83] section [24] .nipd: sh_addr = 2c7040, sh_size = 8, sh_offset = c7040, sh_name = fe
+[get_section elfparser.cpp:83] section [25] .bss: sh_addr = 2c7060, sh_size = ef60, sh_offset = c7048, sh_name = 104
+[get_section elfparser.cpp:83] section [26] .comment: sh_addr = 0, sh_size = 29, sh_offset = c7048, sh_name = 109
+[get_section elfparser.cpp:83] section [27] .note.sgxmeta: sh_addr = 0, sh_size = 501c, sh_offset = c7074, sh_name = 112
+[get_section elfparser.cpp:83] section [28] .debug_aranges: sh_addr = 0, sh_size = 3b20, sh_offset = cc090, sh_name = 120
+[get_section elfparser.cpp:83] section [29] .debug_info: sh_addr = 0, sh_size = 5e858, sh_offset = cfbb0, sh_name = 12f
+[get_section elfparser.cpp:83] section [30] .debug_abbrev: sh_addr = 0, sh_size = da11, sh_offset = 12e408, sh_name = 13b
+[get_section elfparser.cpp:83] section [31] .debug_line: sh_addr = 0, sh_size = 15c47, sh_offset = 13be19, sh_name = 149
+[get_section elfparser.cpp:83] section [32] .debug_str: sh_addr = 0, sh_size = 1d099, sh_offset = 151a60, sh_name = 155
+[get_section elfparser.cpp:83] section [33] .debug_loc: sh_addr = 0, sh_size = 1b4, sh_offset = 16eaf9, sh_name = 160
+[get_section elfparser.cpp:83] section [34] .debug_ranges: sh_addr = 0, sh_size = 3760, sh_offset = 16ecad, sh_name = 16b
+[get_section elfparser.cpp:83] section [35] .symtab: sh_addr = 0, sh_size = e688, sh_offset = 172410, sh_name = 1
+[get_section elfparser.cpp:83] section [36] .strtab: sh_addr = 0, sh_size = 8e61, sh_offset = 180a98, sh_name = 9
+[get_section elfparser.cpp:83] section [37] .shstrtab: sh_addr = 0, sh_size = 179, sh_offset = 1898f9, sh_name = 11
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad300, sh_offset = 1480, sh_name = 84
+[get_section elfparser.cpp:83] section [12] .nipx: sh_addr = ae780, sh_size = af9, sh_offset = ae780, sh_name = 8a
+[get_section elfparser.cpp:83] section [13] .rodata: sh_addr = af280, sh_size = 4a20, sh_offset = af280, sh_name = 90
+[get_section elfparser.cpp:83] section [14] .niprod: sh_addr = b3cc0, sh_size = 8c0, sh_offset = b3cc0, sh_name = 98
+[get_section elfparser.cpp:83] section [15] .eh_frame_hdr: sh_addr = b4580, sh_size = 1a9c, sh_offset = b4580, sh_name = a0
+[get_section elfparser.cpp:83] section [16] .eh_frame: sh_addr = b6020, sh_size = edb4, sh_offset = b6020, sh_name = ae
+[get_section elfparser.cpp:83] section [17] .gcc_except_table: sh_addr = c4dd4, sh_size = a9, sh_offset = c4dd4, sh_name = b8
+[get_section elfparser.cpp:83] section [18] .init_array: sh_addr = 2c5b78, sh_size = 18, sh_offset = c5b78, sh_name = ca
+[get_section elfparser.cpp:83] section [19] .fini_array: sh_addr = 2c5b90, sh_size = 50, sh_offset = c5b90, sh_name = d6
+[get_section elfparser.cpp:83] section [20] .data.rel.ro: sh_addr = 2c5be0, sh_size = 248, sh_offset = c5be0, sh_name = e2
+[get_section elfparser.cpp:83] section [21] .dynamic: sh_addr = 2c5e28, sh_size = 1a0, sh_offset = c5e28, sh_name = ef
+[get_section elfparser.cpp:83] section [22] .got: sh_addr = 2c5fc8, sh_size = 28, sh_offset = c5fc8, sh_name = 7f
+[get_section elfparser.cpp:83] section [23] .data: sh_addr = 2c6000, sh_size = 1040, sh_offset = c6000, sh_name = f8
+[get_section elfparser.cpp:83] section [24] .nipd: sh_addr = 2c7040, sh_size = 8, sh_offset = c7040, sh_name = fe
+[get_section elfparser.cpp:83] section [25] .bss: sh_addr = 2c7060, sh_size = ef60, sh_offset = c7048, sh_name = 104
+[get_section elfparser.cpp:83] section [26] .comment: sh_addr = 0, sh_size = 29, sh_offset = c7048, sh_name = 109
+[get_section elfparser.cpp:83] section [27] .note.sgxmeta: sh_addr = 0, sh_size = 501c, sh_offset = c7074, sh_name = 112
+LOAD Section: 1
+Flags = 0x0000000000000005
+VAddr = 0x0000000000000000
+Size  = 0x00000000000C4E7D
+
+LOAD Section: 2
+Flags = 0x0000000000000006
+VAddr = 0x00000000002C5B78
+Size  = 0x0000000000010448
+
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad300, sh_offset = 1480, sh_name = 84
+[get_section elfparser.cpp:83] section [12] .nipx: sh_addr = ae780, sh_size = af9, sh_offset = ae780, sh_name = 8a
+[get_section elfparser.cpp:83] section [13] .rodata: sh_addr = af280, sh_size = 4a20, sh_offset = af280, sh_name = 90
+[get_section elfparser.cpp:83] section [14] .niprod: sh_addr = b3cc0, sh_size = 8c0, sh_offset = b3cc0, sh_name = 98
+[get_section elfparser.cpp:83] section [15] .eh_frame_hdr: sh_addr = b4580, sh_size = 1a9c, sh_offset = b4580, sh_name = a0
+[get_section elfparser.cpp:83] section [16] .eh_frame: sh_addr = b6020, sh_size = edb4, sh_offset = b6020, sh_name = ae
+[get_section elfparser.cpp:83] section [17] .gcc_except_table: sh_addr = c4dd4, sh_size = a9, sh_offset = c4dd4, sh_name = b8
+[get_section elfparser.cpp:83] section [18] .init_array: sh_addr = 2c5b78, sh_size = 18, sh_offset = c5b78, sh_name = ca
+[get_section elfparser.cpp:83] section [19] .fini_array: sh_addr = 2c5b90, sh_size = 50, sh_offset = c5b90, sh_name = d6
+[get_section elfparser.cpp:83] section [20] .data.rel.ro: sh_addr = 2c5be0, sh_size = 248, sh_offset = c5be0, sh_name = e2
+[get_section elfparser.cpp:83] section [21] .dynamic: sh_addr = 2c5e28, sh_size = 1a0, sh_offset = c5e28, sh_name = ef
+[get_section elfparser.cpp:83] section [22] .got: sh_addr = 2c5fc8, sh_size = 28, sh_offset = c5fc8, sh_name = 7f
+[get_section elfparser.cpp:83] section [23] .data: sh_addr = 2c6000, sh_size = 1040, sh_offset = c6000, sh_name = f8
+[get_section elfparser.cpp:83] section [24] .nipd: sh_addr = 2c7040, sh_size = 8, sh_offset = c7040, sh_name = fe
+[get_section elfparser.cpp:83] section [25] .bss: sh_addr = 2c7060, sh_size = ef60, sh_offset = c7048, sh_name = 104
+[get_section elfparser.cpp:83] section [26] .comment: sh_addr = 0, sh_size = 29, sh_offset = c7048, sh_name = 109
+[get_section elfparser.cpp:83] section [27] .note.sgxmeta: sh_addr = 0, sh_size = 501c, sh_offset = c7074, sh_name = 112
+[get_section elfparser.cpp:83] section [28] .debug_aranges: sh_addr = 0, sh_size = 3b20, sh_offset = cc090, sh_name = 120
+[get_section elfparser.cpp:83] section [29] .debug_info: sh_addr = 0, sh_size = 5e858, sh_offset = cfbb0, sh_name = 12f
+[get_section elfparser.cpp:83] section [30] .debug_abbrev: sh_addr = 0, sh_size = da11, sh_offset = 12e408, sh_name = 13b
+[get_section elfparser.cpp:83] section [31] .debug_line: sh_addr = 0, sh_size = 15c47, sh_offset = 13be19, sh_name = 149
+[get_section elfparser.cpp:83] section [32] .debug_str: sh_addr = 0, sh_size = 1d099, sh_offset = 151a60, sh_name = 155
+[get_section elfparser.cpp:83] section [33] .debug_loc: sh_addr = 0, sh_size = 1b4, sh_offset = 16eaf9, sh_name = 160
+[get_section elfparser.cpp:83] section [34] .debug_ranges: sh_addr = 0, sh_size = 3760, sh_offset = 16ecad, sh_name = 16b
+[get_section elfparser.cpp:83] section [35] .symtab: sh_addr = 0, sh_size = e688, sh_offset = 172410, sh_name = 1
+[get_section elfparser.cpp:83] section [36] .strtab: sh_addr = 0, sh_size = 8e61, sh_offset = 180a98, sh_name = 9
+[get_section elfparser.cpp:83] section [37] .shstrtab: sh_addr = 0, sh_size = 179, sh_offset = 1898f9, sh_name = 11
+tcs_num 2, tcs_max_num 2, tcs_min_pool 1
+[check_xml_parameter manage_metadata.cpp:489] RSRV_MIN_SIZE  = 0x0000000000000000
+[check_xml_parameter manage_metadata.cpp:490] RSRV_INIT_SIZE = 0x0000000000000000
+[check_xml_parameter manage_metadata.cpp:491] RSRV_MAX_SIZE  = 0x0000000000000000
+[update_layout_entries manage_metadata.cpp:521] 
+	Entry Id( 0) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D6FFF
+	Entry Id( 1) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x19,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D5FFF
+	Entry Id( 2) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E5FFF
+	Entry Id( 3) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x5B,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000423FFF
+	Entry Id( 4) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000425FFF
+	Entry Id( 5) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000435FFF
+	Entry Id( 6) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000436FFF
+	Entry Id( 7) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000438FFF
+	Entry Id( 8) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000448FFF
+	Entry Id( 9) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x0000000000449FFF
+	Entry Id(10) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000044A000 --- 0x0000000000459FFF
+	Entry Id(11) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x43,  Flags = 0x0000000000000203,  RVA = 0x000000000045A000 --- 0x0000000000497FFF
+	Entry Id(12) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000498000 --- 0x0000000000499FFF
+	Entry Id(13) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000049A000 --- 0x00000000004A9FFF
+	Entry Id(14) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x00000000004AA000 --- 0x00000000004AAFFF
+	Entry Id(15) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004AB000 --- 0x00000000004ACFFF
+	Entry Id(16) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004AD000 --- 0x00000000004BCFFF
+	Entry Id(17) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004BD000 --- 0x00000000004BDFFF
+[build_layout_entries manage_metadata.cpp:557] 
+Enclave: Size = 0x00000000004BE000, Rounded Size = 0x0000000000800000
+	Entry Id( 0) =   10, GUARD           ,  Page Count =   834,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004BE000 --- 0x00000000007FFFFF
+[do_update_global_data update_global_data.hxx:100] 
+Global Data:
+	Enclave size     = 0x0000000000800000
+	Heap Offset      = 0x00000000002D6000
+	Heap Size        = 0x0000000000100000
+	Rsrv Offset      = 0x0000000000000000
+	Rsrv Size        = 0x0000000000000000
+	Thread Policy    = 0x0000000000000001
+	Layout Table:
+	Entry Id( 1) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D7000
+	Entry Id( 2) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x19,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D6000
+	Entry Id( 3) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E6000
+	Entry Id( 4) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x5B,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000424000
+	Entry Id( 5) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000426000
+	Entry Id( 6) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000436000
+	Entry Id( 7) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000437000
+	Entry Id( 8) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000439000
+	Entry Id( 9) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000449000
+	Entry Id(10) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x000000000044A000
+	Entry Id(11) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000044A000 --- 0x000000000045A000
+	Entry Id(12) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x43,  Flags = 0x0000000000000203,  RVA = 0x000000000045A000 --- 0x0000000000498000
+	Entry Id(13) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000498000 --- 0x000000000049A000
+	Entry Id(14) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000049A000 --- 0x00000000004AA000
+	Entry Id(15) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x00000000004AA000 --- 0x00000000004AB000
+	Entry Id(16) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004AB000 --- 0x00000000004AD000
+	Entry Id(17) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004AD000 --- 0x00000000004BD000
+	Entry Id(18) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004BD000 --- 0x00000000004BE000
+	Entry Id(19) =   10, GUARD           ,  Page Count =   834,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004BE000 --- 0x0000000000800000
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_reloc_entry_offset elfparser.cpp:849] found section '.plt' - offset 0x1440, size 0x10
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_reloc_entry_offset elfparser.cpp:849] found section '.plt.got' - offset 0x1450, size 0x8
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad300, sh_offset = 1480, sh_name = 84
+[get_reloc_entry_offset elfparser.cpp:849] found section '.text' - offset 0x1480, size 0xad300
+[get_section elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4b, sh_offset = 340, sh_name = 48
+[get_section elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38c, sh_size = c, sh_offset = 38c, sh_name = 50
+[get_section elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 1068, sh_offset = 3d0, sh_name = 6c
+[get_section elfparser.cpp:83] section [9] .plt: sh_addr = 1440, sh_size = 10, sh_offset = 1440, sh_name = 76
+[get_section elfparser.cpp:83] section [10] .plt.got: sh_addr = 1450, sh_size = 8, sh_offset = 1450, sh_name = 7b
+[get_section elfparser.cpp:83] section [11] .text: sh_addr = 1480, sh_size = ad300, sh_offset = 1480, sh_name = 84
+[get_section elfparser.cpp:83] section [12] .nipx: sh_addr = ae780, sh_size = af9, sh_offset = ae780, sh_name = 8a
+[get_reloc_entry_offset elfparser.cpp:849] found section '.nipx' - offset 0xae780, size 0xaf9
+[build_secs /home/ray/EMEL/sgx-step/linux-sgx/psw/urts/loader.cpp:542] Enclave start addr. = (nil), Size = 0x800000, 8192 KB
+[build_image /home/ray/EMEL/sgx-step/linux-sgx/psw/urts/loader.cpp:585] 
+	Metadata Version = 0x0000000200000004
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    1, HEAP_MIN        , Page Count =     1, Attributes = 0x01, Flags = 0x0000000000000203, RVA = 0x00000000002D6000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    1, HEAP_MIN        , Page Count =     1, Attributes = 0x01, Flags = 0x0000000000000203, RVA = 0x00000000002D6000 -> RVA = 0x00000000002D6000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    2, HEAP_INIT       , Page Count =   255, Attributes = 0x19, Flags = 0x0000000000000203, RVA = 0x00000000002D7000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    2, HEAP_INIT       , Page Count =   255, Attributes = 0x19, Flags = 0x0000000000000203, RVA = 0x00000000002D7000 -> RVA = 0x00000000002D7000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000003D6000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000003D6000 -> RVA = 0x00000000003D6000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    7, STACK_MAX       , Page Count =    62, Attributes = 0x5B, Flags = 0x0000000000000203, RVA = 0x00000000003E6000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    7, STACK_MAX       , Page Count =    62, Attributes = 0x5B, Flags = 0x0000000000000203, RVA = 0x00000000003E6000 -> RVA = 0x00000000003E6000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000424000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000424000 -> RVA = 0x0000000000424000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000426000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000426000 -> RVA = 0x0000000000426000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x0000000000436000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x0000000000436000 -> RVA = 0x0000000000436000
+LEI: loader.cpp 1-th print ptcs->oentry :  aef0b
+LEI: loader.cpp Modified TCS address 7ffef68d01d0 and its ptcs->oentry :  aef0b
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000437000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000437000 -> RVA = 0x0000000000437000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000439000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000439000 -> RVA = 0x0000000000439000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000449000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000449000 -> RVA = 0x0000000000449000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x000000000044A000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x000000000044A000 -> RVA = 0x000000000044A000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    7, STACK_MAX       , Page Count =    62, Attributes = 0x43, Flags = 0x0000000000000203, RVA = 0x000000000045A000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    7, STACK_MAX       , Page Count =    62, Attributes = 0x43, Flags = 0x0000000000000203, RVA = 0x000000000045A000 -> RVA = 0x000000000045A000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000498000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000498000 -> RVA = 0x0000000000498000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x000000000049A000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x000000000049A000 -> RVA = 0x000000000049A000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x00000000004AA000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x00000000004AA000 -> RVA = 0x00000000004AA000
+LEI: loader.cpp 2-th print ptcs->oentry :  1ae9
+LEI: loader.cpp Modified TCS address 7ffef68d01d0 and its ptcs->oentry :  1ae9
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x00000000004AB000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x00000000004AB000 -> RVA = 0x00000000004AB000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000004AD000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000004AD000 -> RVA = 0x00000000004AD000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x00000000004BD000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x00000000004BD000 -> RVA = 0x00000000004BD000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =   834, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000004BE000 + 0x0000000000000000
+	build_context with the start_rva: 0
+	Entry Id     =   10, GUARD           , Page Count =   834, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x00000000004BE000 -> RVA = 0x00000000004BE000
+[measure_enclave sign_tool.cpp:239] 
+The required memory is 2482176B.
+The required memory is 0x25e000, 2424 KB.
+[generate_compatible_metadata sign_tool.cpp:1060] 
+[dump_metadata_layout sign_tool.cpp:828] 
+	Metadata Version = 0x0000000200000004
+	Entry Id( 0) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D7000
+	Entry Id( 1) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x19,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D6000
+	Entry Id( 2) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E6000
+	Entry Id( 3) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x5B,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000424000
+	Entry Id( 4) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000426000
+	Entry Id( 5) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000436000
+	Entry Id( 6) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000437000
+	Entry Id( 7) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000439000
+	Entry Id( 8) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000449000
+	Entry Id( 9) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x000000000044A000
+	Entry Id(10) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000044A000 --- 0x000000000045A000
+	Entry Id(11) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x43,  Flags = 0x0000000000000203,  RVA = 0x000000000045A000 --- 0x0000000000498000
+	Entry Id(12) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000498000 --- 0x000000000049A000
+	Entry Id(13) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000049A000 --- 0x00000000004AA000
+	Entry Id(14) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x00000000004AA000 --- 0x00000000004AB000
+	Entry Id(15) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004AB000 --- 0x00000000004AD000
+	Entry Id(16) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004AD000 --- 0x00000000004BD000
+	Entry Id(17) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004BD000 --- 0x00000000004BE000
+	Entry Id(18) =   10, GUARD           ,  Page Count =   834,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004BE000 --- 0x0000000000800000
+[dump_metadata_layout sign_tool.cpp:828] 
+	Metadata Version = 0x0000000200000001
+	Entry Id( 0) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D7000
+	Entry Id( 1) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x19,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D6000
+	Entry Id( 2) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E6000
+	Entry Id( 3) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x5B,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000424000
+	Entry Id( 4) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000426000
+	Entry Id( 5) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000436000
+	Entry Id( 6) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000437000
+	Entry Id( 7) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000439000
+	Entry Id( 8) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000449000
+	Entry Id( 9) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x000000000044A000
+	Entry Id(10) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000044A000 --- 0x000000000045A000
+	Entry Id(11) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x43,  Flags = 0x0000000000000203,  RVA = 0x000000000045A000 --- 0x0000000000498000
+	Entry Id(12) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000498000 --- 0x000000000049A000
+	Entry Id(13) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x000000000049A000 --- 0x00000000004AA000
+	Entry Id(14) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x00000000004AA000 --- 0x00000000004AB000
+	Entry Id(15) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004AB000 --- 0x00000000004AD000
+	Entry Id(16) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004AD000 --- 0x00000000004BD000
+	Entry Id(17) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x00000000004BD000 --- 0x00000000004BE000
+	Entry Id(18) =   10, GUARD           ,  Page Count =   834,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000004BE000 --- 0x0000000000800000
+[dump_metadata_layout sign_tool.cpp:828] 
+	Metadata Version = 0x0000000100000004
+	Entry Id( 0) =    1, HEAP_MIN        ,  Page Count =     1,  Attributes = 0x01,  Flags = 0x0000000000000203,  RVA = 0x00000000002D6000 --- 0x00000000002D7000
+	Entry Id( 1) =    2, HEAP_INIT       ,  Page Count =   255,  Attributes = 0x11,  Flags = 0x0000000000000203,  RVA = 0x00000000002D7000 --- 0x00000000003D6000
+	Entry Id( 2) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x00000000003D6000 --- 0x00000000003E6000
+	Entry Id( 3) =    7, STACK_MAX       ,  Page Count =    62,  Attributes = 0x53,  Flags = 0x0000000000000203,  RVA = 0x00000000003E6000 --- 0x0000000000424000
+	Entry Id( 4) =    8, STACK_MIN       ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000424000 --- 0x0000000000426000
+	Entry Id( 5) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000426000 --- 0x0000000000436000
+	Entry Id( 6) =    4, TCS             ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000100,  RVA = 0x0000000000436000 --- 0x0000000000437000
+	Entry Id( 7) =    6, SSA             ,  Page Count =     2,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000437000 --- 0x0000000000439000
+	Entry Id( 8) =   10, GUARD           ,  Page Count =    16,  Attributes = 0x00,  Flags = 0x0000000000000000,  RVA = 0x0000000000439000 --- 0x0000000000449000
+	Entry Id( 9) =    5, TD              ,  Page Count =     1,  Attributes = 0x03,  Flags = 0x0000000000000203,  RVA = 0x0000000000449000 --- 0x000000000044A000
+	Entry Id(10) = 4105, THREAD_GROUP    ,  Entry Count =    8,  Load Times = 1,     LStep = 0x0000000000074000
+Succeed.
+SIGN =>  libenclave3.so
+GEN  =>  Enclave1/Enclave1_u.h
+CC   <=  Enclave1/Enclave1_u.c
+GEN  =>  Enclave2/Enclave2_u.h
+CC   <=  Enclave2/Enclave2_u.c
+GEN  =>  Enclave3/Enclave3_u.h
+CC   <=  Enclave3/Enclave3_u.c
+CXX  <=  App/App.cpp
+LINK =>  app
+The project has been built in debug hardware mode.
+make[1]: Leaving directory '/home/ray/EMEL/sgx-step/linux-sgx/SampleCode/LocalAttestation'
+

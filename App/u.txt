@@ -1,0 +1,81 @@
+
+enclave_entry.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <sgx_reporter_enter>:
+   0:	55                   	push   %rbp
+   1:	48 89 e5             	mov    %rsp,%rbp
+   4:	53                   	push   %rbx
+   5:	41 54                	push   %r12
+   7:	41 55                	push   %r13
+   9:	41 56                	push   %r14
+   b:	41 57                	push   %r15
+   d:	41 50                	push   %r8
+   f:	51                   	push   %rcx
+  10:	52                   	push   %rdx
+  11:	56                   	push   %rsi
+  12:	57                   	push   %rdi
+  13:	48 89 3f             	mov    %rdi,(%rdi)
+  16:	48 c7 c0 02 00 00 00 	mov    $0x2,%rax
+  1d:	48 89 f3             	mov    %rsi,%rbx
+  20:	0f 01 d7             	enclu  
+  23:	48 8d 0d 00 00 00 00 	lea    0x0(%rip),%rcx        # 2a <sgx_async_exit>
+
+000000000000002a <sgx_async_exit>:
+  2a:	48 8b 5d f8          	mov    -0x8(%rbp),%rbx
+  2e:	4c 8b 65 f0          	mov    -0x10(%rbp),%r12
+  32:	4c 8b 6d e8          	mov    -0x18(%rbp),%r13
+  36:	4c 8b 75 e0          	mov    -0x20(%rbp),%r14
+  3a:	4c 8b 7d d8          	mov    -0x28(%rbp),%r15
+  3e:	48 89 ec             	mov    %rbp,%rsp
+  41:	5d                   	pop    %rbp
+  42:	c3                   	retq   
+  43:	c3                   	retq   
+
+0000000000000044 <sgx_reporter_enter2>:
+  44:	55                   	push   %rbp
+  45:	48 89 e5             	mov    %rsp,%rbp
+  48:	53                   	push   %rbx
+  49:	41 54                	push   %r12
+  4b:	41 55                	push   %r13
+  4d:	41 56                	push   %r14
+  4f:	41 57                	push   %r15
+  51:	41 50                	push   %r8
+  53:	51                   	push   %rcx
+  54:	52                   	push   %rdx
+  55:	56                   	push   %rsi
+  56:	57                   	push   %rdi
+  57:	48 8b 7d c8          	mov    -0x38(%rbp),%rdi
+  5b:	4d 89 c1             	mov    %r8,%r9
+  5e:	4c 8d 15 45 00 00 00 	lea    0x45(%rip),%r10        # aa <exit_inst>
+  65:	48 8d 1d 00 00 00 00 	lea    0x0(%rip),%rbx        # 6c <sgx_reporter_enter2+0x28>
+  6c:	48 8b 0b             	mov    (%rbx),%rcx
+  6f:	48 83 f9 00          	cmp    $0x0,%rcx
+  73:	74 03                	je     78 <sgx_reporter_enter2+0x34>
+  75:	c5 f8 77             	vzeroupper 
+  78:	48 8b 5d b0          	mov    -0x50(%rbp),%rbx
+  7c:	48 8d 05 00 00 00 00 	lea    0x0(%rip),%rax        # 83 <sgx_reporter_enter2+0x3f>
+  83:	48 89 18             	mov    %rbx,(%rax)
+  86:	48 8d 05 00 00 00 00 	lea    0x0(%rip),%rax        # 8d <sgx_reporter_enter2+0x49>
+  8d:	48 8b 08             	mov    (%rax),%rcx
+  90:	48 83 f9 00          	cmp    $0x0,%rcx
+  94:	75 0a                	jne    a0 <sgx_reporter_enter2+0x5c>
+  96:	48 8d 0d 0a 00 00 00 	lea    0xa(%rip),%rcx        # a7 <__default_async_exit_pointer>
+  9d:	48 89 08             	mov    %rcx,(%rax)
+  a0:	48 c7 c0 02 00 00 00 	mov    $0x2,%rax
+
+00000000000000a7 <__default_async_exit_pointer>:
+  a7:	0f 01 d7             	enclu  
+
+00000000000000aa <exit_inst>:
+  aa:	48 8b 5d f8          	mov    -0x8(%rbp),%rbx
+  ae:	4c 8b 65 f0          	mov    -0x10(%rbp),%r12
+  b2:	4c 8b 6d e8          	mov    -0x18(%rbp),%r13
+  b6:	4c 8b 75 e0          	mov    -0x20(%rbp),%r14
+  ba:	4c 8b 7d d8          	mov    -0x28(%rbp),%r15
+  be:	48 89 ec             	mov    %rbp,%rsp
+  c1:	5d                   	pop    %rbp
+  c2:	c3                   	retq   
+  c3:	c3                   	retq   

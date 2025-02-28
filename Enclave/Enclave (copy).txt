@@ -1,0 +1,163 @@
+/*
+ * Copyright (C) 2011-2019 Intel Corporation. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ *   * Redistributions of source code must retain the above copyright
+ *     notice, this list of conditions and the following disclaimer.
+ *   * Redistributions in binary form must reproduce the above copyright
+ *     notice, this list of conditions and the following disclaimer in
+ *     the documentation and/or other materials provided with the
+ *     distribution.
+ *   * Neither the name of Intel Corporation nor the names of its
+ *     contributors may be used to endorse or promote products derived
+ *     from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ */
+
+#include "Enclave.h"
+#include "Enclave_t.h" /* print_string */
+//#include <stdarg.h>
+//#include <stdio.h> /* vsnprintf */
+//#include <string.h>
+//#include "sgx_trts.h"
+//#include "sgx_tseal.h"
+//#include <string.h>
+//#include "sgx_thread.h"
+//#include "stdlib.h"
+//#include "sgx_tcrypto.h"
+
+/* 
+ * printf: 
+ *   Invokes OCALL to display the enclave buffer to the terminal.
+ */
+#define PAGE_OFFSET 0xFFFFFFFFFFFFF000
+
+unsigned long *outside_vaddr;
+unsigned long inner_elem=0xcc;
+
+
+void redirect_mem_to_noepc(unsigned long *dst, unsigned long tcs ){ //vaddr is a point for two pages, the second page for a lock scheme
+	unsigned long *ssa_address;
+	ssa_address = tcs+ (unsigned long *)4096;
+	mem_cpy(ssa_address, dst, 3916);
+        
+        unsigned long lock = lock+516;
+	
+        if(lock == 0x1)
+ 	{
+        	mem_cpy(dst, ssa_address, 3916);
+	}else
+	{
+		return 0;
+	}
+
+	if(lock == 0x1)
+	{
+		unsigned long c1;
+		c1 = (unsigned long)redirect_mem_to_noepc;
+		c1 = c1 & PAGE_OFFSET;
+		mem_cpy(dst, c1, 4096);
+	}else
+	{
+		return 0;
+	}
+	
+	
+
+}
+
+
+/*
+int printf(const char* fmt, ...)
+{
+    char buf[BUFSIZ] = { '\0' };
+    va_list ap;
+    va_start(ap, fmt);
+    vsnprintf(buf, BUFSIZ, fmt, ap);
+    va_end(ap);
+    ocall_print_string(buf);
+    return (int)strnlen(buf, BUFSIZ - 1) + 1;
+}
+
+unsigned int read_data_from_v(unsigned long *v)
+{
+     unsigned int data;
+     data = *v;
+     return data;
+}
+
+*/
+
+void print_data_from_v(unsigned long *adrs)
+{
+//     unsigned long data;
+//     &data = adrs;
+/*
+       printf("current function 1 %lx\n", printf);
+       printf("current function 2 %lx\n", read_data_from_v);
+       printf("current function 3 %lx\n", print_data_from_v);
+ */
+
+
+      //test code section space
+
+       unsigned long *code_addr_test;
+       code_addr_test = (unsigned long *)print_data_from_v;
+     
+       code_addr_test -=0x100;
+/*       printf("new address:%lx", code_addr_test);
+       printf("and its values: %lx\n", *code_addr_test);
+ */     
+//       printf("inner elem' virtual address: %lx", &inner_elem);
+
+/*
+       //test data section space
+       unsigned long *unknown_data;
+       unknown_data = &inner_elem;
+       unknown_data += 0x5400;
+*/
+       //test ssa section space
+ //      unsigned long *unknown_data;
+//       unknown_data = code_addr_test;
+//       unknown_data += 0x47cf0;
+//       printf("unknown_data' s  virtual address: %lx",unknown_data);
+ //      printf("unknown_data' s value : %lx\n", *unknown_data);
+
+
+//       printf("[sgx enclave  %llx read value:%lx]\n", sgx_thread_self(), *adrs);
+       *adrs = (unsigned long)code_addr_test;
+       *(adrs+1) =  *code_addr_test;
+
+/*
+      //test the loacal register
+    unsigned long value;
+
+    __asm__ __volatile__(
+                      "mov %%CR_SAVE_DR7, %0\n\t"
+			:"=a"(value)
+                        :
+                        :
+	
+    );
+    printf("the gpr_pa address: %llx ]\n", value);
+*/
+}
+
+
+
+

@@ -1,0 +1,337 @@
+
+trampoline1.ko:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <trampoline1_sera>:
+   0:	e8 00 00 00 00       	callq  5 <trampoline1_sera+0x5>
+   5:	55                   	push   %rbp
+   6:	ba 08 04 00 00       	mov    $0x408,%edx
+   b:	be c0 0c 00 00       	mov    $0xcc0,%esi
+  10:	48 89 e5             	mov    %rsp,%rbp
+  13:	41 54                	push   %r12
+  15:	53                   	push   %rbx
+  16:	48 83 ec 40          	sub    $0x40,%rsp
+  1a:	48 8b 3d 00 00 00 00 	mov    0x0(%rip),%rdi        # 21 <trampoline1_sera+0x21>
+  21:	c7 05 00 00 00 00 df 	movl   $0x1bdf,0x0(%rip)        # 2b <trampoline1_sera+0x2b>
+  28:	1b 00 00 
+  2b:	65 48 8b 04 25 28 00 	mov    %gs:0x28,%rax
+  32:	00 00 
+  34:	48 89 45 e8          	mov    %rax,-0x18(%rbp)
+  38:	31 c0                	xor    %eax,%eax
+  3a:	e8 00 00 00 00       	callq  3f <trampoline1_sera+0x3f>
+  3f:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  46:	48 89 05 00 00 00 00 	mov    %rax,0x0(%rip)        # 4d <trampoline1_sera+0x4d>
+  4d:	e8 00 00 00 00       	callq  52 <trampoline1_sera+0x52>
+  52:	48 8b 1d 00 00 00 00 	mov    0x0(%rip),%rbx        # 59 <trampoline1_sera+0x59>
+  59:	48 81 fb 00 00 00 00 	cmp    $0x0,%rbx
+  60:	74 2b                	je     8d <trampoline1_sera+0x8d>
+  62:	8b 35 00 00 00 00    	mov    0x0(%rip),%esi        # 68 <trampoline1_sera+0x68>
+  68:	3b b3 00 01 00 00    	cmp    0x100(%rbx),%esi
+  6e:	75 11                	jne    81 <trampoline1_sera+0x81>
+  70:	e9 1f 01 00 00       	jmpq   194 <trampoline1_sera+0x194>
+  75:	3b b3 00 01 00 00    	cmp    0x100(%rbx),%esi
+  7b:	0f 84 13 01 00 00    	je     194 <trampoline1_sera+0x194>
+  81:	48 8b 1b             	mov    (%rbx),%rbx
+  84:	48 81 fb 00 00 00 00 	cmp    $0x0,%rbx
+  8b:	75 e8                	jne    75 <trampoline1_sera+0x75>
+  8d:	48 c7 c3 00 00 00 00 	mov    $0x0,%rbx
+  94:	48 c7 c6 00 00 00 00 	mov    $0x0,%rsi
+  9b:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  a2:	4c 8d a3 00 10 00 00 	lea    0x1000(%rbx),%r12
+  a9:	48 89 35 00 00 00 00 	mov    %rsi,0x0(%rip)        # b0 <trampoline1_sera+0xb0>
+  b0:	e8 00 00 00 00       	callq  b5 <trampoline1_sera+0xb5>
+  b5:	48 89 df             	mov    %rbx,%rdi
+  b8:	be 04 00 00 00       	mov    $0x4,%esi
+  bd:	48 83 c3 04          	add    $0x4,%rbx
+  c1:	e8 00 00 00 00       	callq  c6 <trampoline1_sera+0xc6>
+  c6:	4c 39 e3             	cmp    %r12,%rbx
+  c9:	75 ea                	jne    b5 <trampoline1_sera+0xb5>
+  cb:	fa                   	cli    
+  cc:	65 48 8b 04 25 00 00 	mov    %gs:0x0,%rax
+  d3:	00 00 
+  d5:	8b 70 3c             	mov    0x3c(%rax),%esi
+  d8:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  df:	e8 00 00 00 00       	callq  e4 <trampoline1_sera+0xe4>
+  e4:	48 b8 2f 68 6f 6d 65 	movabs $0x61722f656d6f682f,%rax
+  eb:	2f 72 61 
+  ee:	48 8d 7d c1          	lea    -0x3f(%rbp),%rdi
+  f2:	48 8d 75 b0          	lea    -0x50(%rbp),%rsi
+  f6:	48 89 45 c1          	mov    %rax,-0x3f(%rbp)
+  fa:	48 b8 79 2f 73 67 78 	movabs $0x67732f7867732f79,%rax
+ 101:	2f 73 67 
+ 104:	b9 02 00 00 00       	mov    $0x2,%ecx
+ 109:	48 89 45 c9          	mov    %rax,-0x37(%rbp)
+ 10d:	48 b8 78 2d 73 74 65 	movabs $0x612f706574732d78,%rax
+ 114:	70 2f 61 
+ 117:	48 c7 c2 00 00 00 00 	mov    $0x0,%rdx
+ 11e:	48 89 45 d1          	mov    %rax,-0x2f(%rbp)
+ 122:	48 b8 70 70 2f 73 73 	movabs $0x6d656473732f7070,%rax
+ 129:	64 65 6d 
+ 12c:	c7 45 e1 6f 33 2f 61 	movl   $0x612f336f,-0x1f(%rbp)
+ 133:	48 89 45 d9          	mov    %rax,-0x27(%rbp)
+ 137:	b8 70 70 00 00       	mov    $0x7070,%eax
+ 13c:	c6 45 e7 00          	movb   $0x0,-0x19(%rbp)
+ 140:	66 89 45 e5          	mov    %ax,-0x1b(%rbp)
+ 144:	48 89 7d b0          	mov    %rdi,-0x50(%rbp)
+ 148:	48 c7 45 b8 00 00 00 	movq   $0x0,-0x48(%rbp)
+ 14f:	00 
+ 150:	e8 00 00 00 00       	callq  155 <trampoline1_sera+0x155>
+ 155:	fb                   	sti    
+ 156:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 15d:	89 c6                	mov    %eax,%esi
+ 15f:	e8 00 00 00 00       	callq  164 <trampoline1_sera+0x164>
+ 164:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 16b:	e8 00 00 00 00       	callq  170 <trampoline1_sera+0x170>
+ 170:	48 8b 3d 00 00 00 00 	mov    0x0(%rip),%rdi        # 177 <trampoline1_sera+0x177>
+ 177:	e8 00 00 00 00       	callq  17c <trampoline1_sera+0x17c>
+ 17c:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+ 180:	65 48 33 04 25 28 00 	xor    %gs:0x28,%rax
+ 187:	00 00 
+ 189:	75 3c                	jne    1c7 <trampoline1_sera+0x1c7>
+ 18b:	48 83 c4 40          	add    $0x40,%rsp
+ 18f:	5b                   	pop    %rbx
+ 190:	41 5c                	pop    %r12
+ 192:	5d                   	pop    %rbp
+ 193:	c3                   	retq   
+ 194:	48 8b 43 50          	mov    0x50(%rbx),%rax
+ 198:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 19f:	48 8b 50 50          	mov    0x50(%rax),%rdx
+ 1a3:	e8 00 00 00 00       	callq  1a8 <trampoline1_sera+0x1a8>
+ 1a8:	48 8b 43 50          	mov    0x50(%rbx),%rax
+ 1ac:	48 8b 50 20          	mov    0x20(%rax),%rdx
+ 1b0:	48 8b 40 40          	mov    0x40(%rax),%rax
+ 1b4:	48 89 15 00 00 00 00 	mov    %rdx,0x0(%rip)        # 1bb <trampoline1_sera+0x1bb>
+ 1bb:	48 89 05 00 00 00 00 	mov    %rax,0x0(%rip)        # 1c2 <trampoline1_sera+0x1c2>
+ 1c2:	e9 c6 fe ff ff       	jmpq   8d <trampoline1_sera+0x8d>
+ 1c7:	e8 00 00 00 00       	callq  1cc <trampoline1_sera+0x1cc>
+ 1cc:	0f 1f 40 00          	nopl   0x0(%rax)
+
+00000000000001d0 <get_phys_addr>:
+ 1d0:	e8 00 00 00 00       	callq  1d5 <get_phys_addr+0x5>
+ 1d5:	55                   	push   %rbp
+ 1d6:	48 8b 15 00 00 00 00 	mov    0x0(%rip),%rdx        # 1dd <get_phys_addr+0xd>
+ 1dd:	48 89 fe             	mov    %rdi,%rsi
+ 1e0:	48 89 e5             	mov    %rsp,%rbp
+ 1e3:	41 55                	push   %r13
+ 1e5:	41 54                	push   %r12
+ 1e7:	53                   	push   %rbx
+ 1e8:	48 89 fb             	mov    %rdi,%rbx
+ 1eb:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 1f2:	49 bc 00 f0 ff ff ff 	movabs $0xffffffffff000,%r12
+ 1f9:	ff 0f 00 
+ 1fc:	e8 00 00 00 00       	callq  201 <get_phys_addr+0x31>
+ 201:	48 8b 35 00 00 00 00 	mov    0x0(%rip),%rsi        # 208 <get_phys_addr+0x38>
+ 208:	48 89 d8             	mov    %rbx,%rax
+ 20b:	4c 8b 2d 00 00 00 00 	mov    0x0(%rip),%r13        # 212 <get_phys_addr+0x42>
+ 212:	48 c1 e8 24          	shr    $0x24,%rax
+ 216:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 21d:	25 f8 0f 00 00       	and    $0xff8,%eax
+ 222:	4c 21 e6             	and    %r12,%rsi
+ 225:	48 09 c6             	or     %rax,%rsi
+ 228:	49 01 f5             	add    %rsi,%r13
+ 22b:	49 8b 55 00          	mov    0x0(%r13),%rdx
+ 22f:	e8 00 00 00 00       	callq  234 <get_phys_addr+0x64>
+ 234:	49 8b 75 00          	mov    0x0(%r13),%rsi
+ 238:	48 89 d8             	mov    %rbx,%rax
+ 23b:	4c 8b 2d 00 00 00 00 	mov    0x0(%rip),%r13        # 242 <get_phys_addr+0x72>
+ 242:	48 c1 e8 1b          	shr    $0x1b,%rax
+ 246:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 24d:	25 f8 0f 00 00       	and    $0xff8,%eax
+ 252:	4c 21 e6             	and    %r12,%rsi
+ 255:	48 09 c6             	or     %rax,%rsi
+ 258:	49 01 f5             	add    %rsi,%r13
+ 25b:	49 8b 55 00          	mov    0x0(%r13),%rdx
+ 25f:	e8 00 00 00 00       	callq  264 <get_phys_addr+0x94>
+ 264:	49 8b 45 00          	mov    0x0(%r13),%rax
+ 268:	a8 80                	test   $0x80,%al
+ 26a:	0f 85 d0 00 00 00    	jne    340 <get_phys_addr+0x170>
+ 270:	48 89 de             	mov    %rbx,%rsi
+ 273:	4c 8b 2d 00 00 00 00 	mov    0x0(%rip),%r13        # 27a <get_phys_addr+0xaa>
+ 27a:	4c 21 e0             	and    %r12,%rax
+ 27d:	48 c1 ee 12          	shr    $0x12,%rsi
+ 281:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 288:	81 e6 f8 0f 00 00    	and    $0xff8,%esi
+ 28e:	48 09 c6             	or     %rax,%rsi
+ 291:	49 01 f5             	add    %rsi,%r13
+ 294:	49 8b 55 00          	mov    0x0(%r13),%rdx
+ 298:	e8 00 00 00 00       	callq  29d <get_phys_addr+0xcd>
+ 29d:	49 8b 45 00          	mov    0x0(%r13),%rax
+ 2a1:	a8 80                	test   $0x80,%al
+ 2a3:	75 6e                	jne    313 <get_phys_addr+0x143>
+ 2a5:	48 89 de             	mov    %rbx,%rsi
+ 2a8:	4c 8b 2d 00 00 00 00 	mov    0x0(%rip),%r13        # 2af <get_phys_addr+0xdf>
+ 2af:	4c 21 e0             	and    %r12,%rax
+ 2b2:	48 c1 ee 09          	shr    $0x9,%rsi
+ 2b6:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 2bd:	81 e3 ff 0f 00 00    	and    $0xfff,%ebx
+ 2c3:	81 e6 f8 0f 00 00    	and    $0xff8,%esi
+ 2c9:	48 09 c6             	or     %rax,%rsi
+ 2cc:	49 01 f5             	add    %rsi,%r13
+ 2cf:	49 8b 55 00          	mov    0x0(%r13),%rdx
+ 2d3:	e8 00 00 00 00       	callq  2d8 <get_phys_addr+0x108>
+ 2d8:	4d 23 65 00          	and    0x0(%r13),%r12
+ 2dc:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 2e3:	4c 09 e3             	or     %r12,%rbx
+ 2e6:	48 89 de             	mov    %rbx,%rsi
+ 2e9:	e8 00 00 00 00       	callq  2ee <get_phys_addr+0x11e>
+ 2ee:	48 03 1d 00 00 00 00 	add    0x0(%rip),%rbx        # 2f5 <get_phys_addr+0x125>
+ 2f5:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 2fc:	48 8b 13             	mov    (%rbx),%rdx
+ 2ff:	48 89 de             	mov    %rbx,%rsi
+ 302:	31 db                	xor    %ebx,%ebx
+ 304:	e8 00 00 00 00       	callq  309 <get_phys_addr+0x139>
+ 309:	48 89 d8             	mov    %rbx,%rax
+ 30c:	5b                   	pop    %rbx
+ 30d:	41 5c                	pop    %r12
+ 30f:	41 5d                	pop    %r13
+ 311:	5d                   	pop    %rbp
+ 312:	c3                   	retq   
+ 313:	48 be 00 00 c0 ff ff 	movabs $0xfffffffc00000,%rsi
+ 31a:	ff 0f 00 
+ 31d:	48 c1 eb 14          	shr    $0x14,%rbx
+ 321:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 328:	48 21 f0             	and    %rsi,%rax
+ 32b:	48 01 c3             	add    %rax,%rbx
+ 32e:	48 89 de             	mov    %rbx,%rsi
+ 331:	e8 00 00 00 00       	callq  336 <get_phys_addr+0x166>
+ 336:	48 89 d8             	mov    %rbx,%rax
+ 339:	5b                   	pop    %rbx
+ 33a:	41 5c                	pop    %r12
+ 33c:	41 5d                	pop    %r13
+ 33e:	5d                   	pop    %rbp
+ 33f:	c3                   	retq   
+ 340:	48 89 df             	mov    %rbx,%rdi
+ 343:	48 bb 00 00 00 c0 ff 	movabs $0xfffffc0000000,%rbx
+ 34a:	ff 0f 00 
+ 34d:	48 c1 ef 1e          	shr    $0x1e,%rdi
+ 351:	48 01 fb             	add    %rdi,%rbx
+ 354:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 35b:	48 21 c3             	and    %rax,%rbx
+ 35e:	48 89 de             	mov    %rbx,%rsi
+ 361:	e8 00 00 00 00       	callq  366 <get_phys_addr+0x196>
+ 366:	48 89 d8             	mov    %rbx,%rax
+ 369:	5b                   	pop    %rbx
+ 36a:	41 5c                	pop    %r12
+ 36c:	41 5d                	pop    %r13
+ 36e:	5d                   	pop    %rbp
+ 36f:	c3                   	retq   
+
+0000000000000370 <clear_ifg>:
+ 370:	e8 00 00 00 00       	callq  375 <clear_ifg+0x5>
+ 375:	55                   	push   %rbp
+ 376:	48 89 e5             	mov    %rsp,%rbp
+ 379:	fa                   	cli    
+ 37a:	65 48 8b 04 25 00 00 	mov    %gs:0x0,%rax
+ 381:	00 00 
+ 383:	8b 70 3c             	mov    0x3c(%rax),%esi
+ 386:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 38d:	e8 00 00 00 00       	callq  392 <clear_ifg+0x22>
+ 392:	5d                   	pop    %rbp
+ 393:	c3                   	retq   
+ 394:	66 90                	xchg   %ax,%ax
+ 396:	66 2e 0f 1f 84 00 00 	nopw   %cs:0x0(%rax,%rax,1)
+ 39d:	00 00 00 
+
+00000000000003a0 <start_ifg>:
+ 3a0:	e8 00 00 00 00       	callq  3a5 <start_ifg+0x5>
+ 3a5:	55                   	push   %rbp
+ 3a6:	48 89 e5             	mov    %rsp,%rbp
+ 3a9:	fb                   	sti    
+ 3aa:	5d                   	pop    %rbp
+ 3ab:	c3                   	retq   
+
+Disassembly of section .init.text:
+
+0000000000000000 <init_module>:
+   0:	e8 00 00 00 00       	callq  5 <init_module+0x5>
+   5:	55                   	push   %rbp
+   6:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+   d:	48 89 e5             	mov    %rsp,%rbp
+  10:	53                   	push   %rbx
+  11:	e8 00 00 00 00       	callq  16 <init_module+0x16>
+  16:	ff 14 25 00 00 00 00 	callq  *0x0
+  1d:	48 89 05 00 00 00 00 	mov    %rax,0x0(%rip)        # 24 <init_module+0x24>
+  24:	ff 14 25 00 00 00 00 	callq  *0x0
+  2b:	48 8b 35 00 00 00 00 	mov    0x0(%rip),%rsi        # 32 <init_module+0x32>
+  32:	48 89 c2             	mov    %rax,%rdx
+  35:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  3c:	48 89 05 00 00 00 00 	mov    %rax,0x0(%rip)        # 43 <init_module+0x43>
+  43:	bb 00 00 00 80       	mov    $0x80000000,%ebx
+  48:	e8 00 00 00 00       	callq  4d <init_module+0x4d>
+  4d:	be 27 00 00 00       	mov    $0x27,%esi
+  52:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  59:	e8 00 00 00 00       	callq  5e <init_module+0x5e>
+  5e:	be 27 00 00 00       	mov    $0x27,%esi
+  63:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  6a:	e8 00 00 00 00       	callq  6f <init_module+0x6f>
+  6f:	be 1e 00 00 00       	mov    $0x1e,%esi
+  74:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  7b:	e8 00 00 00 00       	callq  80 <init_module+0x80>
+  80:	be 15 00 00 00       	mov    $0x15,%esi
+  85:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  8c:	e8 00 00 00 00       	callq  91 <init_module+0x91>
+  91:	be 0c 00 00 00       	mov    $0xc,%esi
+  96:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  9d:	e8 00 00 00 00       	callq  a2 <init_module+0xa2>
+  a2:	48 8b 35 00 00 00 00 	mov    0x0(%rip),%rsi        # a9 <init_module+0xa9>
+  a9:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  b0:	e8 00 00 00 00       	callq  b5 <init_module+0xb5>
+  b5:	be 00 02 00 00       	mov    $0x200,%esi
+  ba:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  c1:	e8 00 00 00 00       	callq  c6 <init_module+0xc6>
+  c6:	be 01 00 00 00       	mov    $0x1,%esi
+  cb:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  d2:	e8 00 00 00 00       	callq  d7 <init_module+0xd7>
+  d7:	be 00 02 00 00       	mov    $0x200,%esi
+  dc:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  e3:	e8 00 00 00 00       	callq  e8 <init_module+0xe8>
+  e8:	be 00 02 00 00       	mov    $0x200,%esi
+  ed:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+  f4:	e8 00 00 00 00       	callq  f9 <init_module+0xf9>
+  f9:	be 00 02 00 00       	mov    $0x200,%esi
+  fe:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 105:	e8 00 00 00 00       	callq  10a <init_module+0x10a>
+ 10a:	48 c7 c6 00 f0 ff ff 	mov    $0xfffffffffffff000,%rsi
+ 111:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 118:	e8 00 00 00 00       	callq  11d <init_module+0x11d>
+ 11d:	48 c7 c6 00 00 00 00 	mov    $0x0,%rsi
+ 124:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 12b:	48 89 35 00 00 00 00 	mov    %rsi,0x0(%rip)        # 132 <init_module+0x132>
+ 132:	e8 00 00 00 00       	callq  137 <init_module+0x137>
+ 137:	48 81 c3 00 00 00 00 	add    $0x0,%rbx
+ 13e:	48 8b 35 00 00 00 00 	mov    0x0(%rip),%rsi        # 145 <init_module+0x145>
+ 145:	72 0e                	jb     155 <init_module+0x155>
+ 147:	48 c7 c6 00 00 00 80 	mov    $0xffffffff80000000,%rsi
+ 14e:	48 2b 35 00 00 00 00 	sub    0x0(%rip),%rsi        # 155 <init_module+0x155>
+ 155:	48 01 f3             	add    %rsi,%rbx
+ 158:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 15f:	48 89 de             	mov    %rbx,%rsi
+ 162:	e8 00 00 00 00       	callq  167 <init_module+0x167>
+ 167:	48 03 1d 00 00 00 00 	add    0x0(%rip),%rbx        # 16e <init_module+0x16e>
+ 16e:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+ 175:	48 89 de             	mov    %rbx,%rsi
+ 178:	e8 00 00 00 00       	callq  17d <init_module+0x17d>
+ 17d:	48 8b 3d 00 00 00 00 	mov    0x0(%rip),%rdi        # 184 <init_module+0x184>
+ 184:	e8 00 00 00 00       	callq  189 <init_module+0x189>
+ 189:	e8 00 00 00 00       	callq  18e <init_module+0x18e>
+ 18e:	31 c0                	xor    %eax,%eax
+ 190:	e6 b2                	out    %al,$0xb2
+ 192:	31 c0                	xor    %eax,%eax
+ 194:	5b                   	pop    %rbx
+ 195:	5d                   	pop    %rbp
+ 196:	c3                   	retq   
+
+Disassembly of section .exit.text:
+
+0000000000000000 <cleanup_module>:
+   0:	55                   	push   %rbp
+   1:	48 c7 c7 00 00 00 00 	mov    $0x0,%rdi
+   8:	48 89 e5             	mov    %rsp,%rbp
+   b:	e8 00 00 00 00       	callq  10 <cleanup_module+0x10>
+  10:	48 8b 3d 00 00 00 00 	mov    0x0(%rip),%rdi        # 17 <cleanup_module+0x17>
+  17:	31 f6                	xor    %esi,%esi
+  19:	e8 00 00 00 00       	callq  1e <cleanup_module+0x1e>
+  1e:	5d                   	pop    %rbp
+  1f:	c3                   	retq   

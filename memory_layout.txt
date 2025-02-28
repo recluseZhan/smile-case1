@@ -1,0 +1,284 @@
+ray@ray:~/sgx-id/sgx-step/app/ssdemo3$ make run
+make[1]: Entering directory '/home/ray/sgx-id/sgx-step/app/ssdemo3'
+make[1]: Circular Enclave/anchor_function.S <- Enclave/anchor_function.S dependency dropped.
+The project has been built in debug hardware mode.
+make[1]: Leaving directory '/home/ray/sgx-id/sgx-step/app/ssdemo3'
+sudo  ./app
+[sudo] password for ray: 
+[CEnclavePool /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/enclave.cpp:599] enter CEnclavePool constructor
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 10, ptr = 0
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 19, ptr = 21fdb8
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 1b, ptr = 8
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 1a, ptr = 21fdc0
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 1c, ptr = 20
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 6ffffef5, ptr = 278
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 5, ptr = 340
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 6, ptr = 2b0
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = a, ptr = 4a
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = b, ptr = 18
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 15, ptr = 0
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 3, ptr = 21ffd0
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 7, ptr = 3d0
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 8, ptr = 4b0
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 9, ptr = 18
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 6ffffffc, ptr = 398
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 6ffffffd, ptr = 2
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 1e, ptr = a
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 6ffffffb, ptr = 8000001
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 6ffffff0, ptr = 38a
+[parse_dyn /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:176] dynamic tag = 6ffffff9, ptr = 31
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4a, sh_offset = 340, sh_name = 48
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4a, sh_offset = 340, sh_name = 48
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38a, sh_size = c, sh_offset = 38a, sh_name = 50
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 4b0, sh_offset = 3d0, sh_name = 6c
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4a, sh_offset = 340, sh_name = 48
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38a, sh_size = c, sh_offset = 38a, sh_name = 50
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 4b0, sh_offset = 3d0, sh_name = 6c
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [9] .plt: sh_addr = 880, sh_size = 10, sh_offset = 880, sh_name = 76
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [10] .plt.got: sh_addr = 890, sh_size = 8, sh_offset = 890, sh_name = 7b
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [11] .text: sh_addr = 8c0, sh_size = 1a6fc, sh_offset = 8c0, sh_name = 84
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [12] .nipx: sh_addr = 1afbc, sh_size = af9, sh_offset = 1afbc, sh_name = 8a
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [13] .rodata: sh_addr = 1bac0, sh_size = 1220, sh_offset = 1bac0, sh_name = 90
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [14] .niprod: sh_addr = 1cd00, sh_size = 8c0, sh_offset = 1cd00, sh_name = 98
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [15] .eh_frame_hdr: sh_addr = 1d5c0, sh_size = 564, sh_offset = 1d5c0, sh_name = a0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [16] .eh_frame: sh_addr = 1db28, sh_size = 16e8, sh_offset = 1db28, sh_name = ae
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [17] .init_array: sh_addr = 21fdb8, sh_size = 8, sh_offset = 1fdb8, sh_name = b8
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [18] .fini_array: sh_addr = 21fdc0, sh_size = 20, sh_offset = 1fdc0, sh_name = c4
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [19] .data.rel.ro: sh_addr = 21fde0, sh_size = 50, sh_offset = 1fde0, sh_name = d0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [20] .dynamic: sh_addr = 21fe30, sh_size = 1a0, sh_offset = 1fe30, sh_name = dd
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [21] .got: sh_addr = 21ffd0, sh_size = 28, sh_offset = 1ffd0, sh_name = 7f
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [22] .data: sh_addr = 220000, sh_size = b5f, sh_offset = 20000, sh_name = e6
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [23] .nipd: sh_addr = 220b60, sh_size = 8, sh_offset = 20b60, sh_name = ec
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [24] .bss: sh_addr = 220b80, sh_size = 6b0, sh_offset = 20b68, sh_name = f2
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [25] .comment: sh_addr = 0, sh_size = 29, sh_offset = 20b68, sh_name = f7
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [26] .note.sgxmeta: sh_addr = 0, sh_size = 501c, sh_offset = 20b94, sh_name = 100
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [27] .debug_aranges: sh_addr = 0, sh_size = 1d00, sh_offset = 25bb0, sh_name = 10e
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [28] .debug_info: sh_addr = 0, sh_size = 185ff, sh_offset = 278b0, sh_name = 11d
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [29] .debug_abbrev: sh_addr = 0, sh_size = 5abb, sh_offset = 3feaf, sh_name = 129
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [30] .debug_line: sh_addr = 0, sh_size = c0c6, sh_offset = 4596a, sh_name = 137
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [31] .debug_str: sh_addr = 0, sh_size = 53d6, sh_offset = 51a30, sh_name = 143
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [32] .debug_ranges: sh_addr = 0, sh_size = 1a30, sh_offset = 56e06, sh_name = 14e
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [33] .symtab: sh_addr = 0, sh_size = 4068, sh_offset = 58838, sh_name = 1
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [34] .strtab: sh_addr = 0, sh_size = 232b, sh_offset = 5c8a0, sh_name = 9
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [35] .shstrtab: sh_addr = 0, sh_size = 15c, sh_offset = 5ebcb, sh_name = 11
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4a, sh_offset = 340, sh_name = 48
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38a, sh_size = c, sh_offset = 38a, sh_name = 50
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 4b0, sh_offset = 3d0, sh_name = 6c
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [9] .plt: sh_addr = 880, sh_size = 10, sh_offset = 880, sh_name = 76
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [10] .plt.got: sh_addr = 890, sh_size = 8, sh_offset = 890, sh_name = 7b
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [11] .text: sh_addr = 8c0, sh_size = 1a6fc, sh_offset = 8c0, sh_name = 84
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [12] .nipx: sh_addr = 1afbc, sh_size = af9, sh_offset = 1afbc, sh_name = 8a
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [13] .rodata: sh_addr = 1bac0, sh_size = 1220, sh_offset = 1bac0, sh_name = 90
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [14] .niprod: sh_addr = 1cd00, sh_size = 8c0, sh_offset = 1cd00, sh_name = 98
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [15] .eh_frame_hdr: sh_addr = 1d5c0, sh_size = 564, sh_offset = 1d5c0, sh_name = a0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [16] .eh_frame: sh_addr = 1db28, sh_size = 16e8, sh_offset = 1db28, sh_name = ae
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [17] .init_array: sh_addr = 21fdb8, sh_size = 8, sh_offset = 1fdb8, sh_name = b8
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [18] .fini_array: sh_addr = 21fdc0, sh_size = 20, sh_offset = 1fdc0, sh_name = c4
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [19] .data.rel.ro: sh_addr = 21fde0, sh_size = 50, sh_offset = 1fde0, sh_name = d0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [20] .dynamic: sh_addr = 21fe30, sh_size = 1a0, sh_offset = 1fe30, sh_name = dd
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [21] .got: sh_addr = 21ffd0, sh_size = 28, sh_offset = 1ffd0, sh_name = 7f
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [22] .data: sh_addr = 220000, sh_size = b5f, sh_offset = 20000, sh_name = e6
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [23] .nipd: sh_addr = 220b60, sh_size = 8, sh_offset = 20b60, sh_name = ec
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [24] .bss: sh_addr = 220b80, sh_size = 6b0, sh_offset = 20b68, sh_name = f2
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [25] .comment: sh_addr = 0, sh_size = 29, sh_offset = 20b68, sh_name = f7
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [26] .note.sgxmeta: sh_addr = 0, sh_size = 501c, sh_offset = 20b94, sh_name = 100
+LOAD Section: 1
+Flags = 0x0000000000000005
+VAddr = 0x0000000000000000
+Size  = 0x000000000001F210
+
+LOAD Section: 2
+Flags = 0x0000000000000006
+VAddr = 0x000000000021FDB8
+Size  = 0x0000000000001478
+
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [0] : sh_addr = 0, sh_size = 0, sh_offset = 0, sh_name = 0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [1] .interp: sh_addr = 238, sh_size = 1c, sh_offset = 238, sh_name = 1b
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [2] .note.gnu.build-id: sh_addr = 254, sh_size = 24, sh_offset = 254, sh_name = 23
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [3] .gnu.hash: sh_addr = 278, sh_size = 34, sh_offset = 278, sh_name = 36
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [4] .dynsym: sh_addr = 2b0, sh_size = 90, sh_offset = 2b0, sh_name = 40
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [5] .dynstr: sh_addr = 340, sh_size = 4a, sh_offset = 340, sh_name = 48
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [6] .gnu.version: sh_addr = 38a, sh_size = c, sh_offset = 38a, sh_name = 50
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [7] .gnu.version_d: sh_addr = 398, sh_size = 38, sh_offset = 398, sh_name = 5d
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [8] .rela.dyn: sh_addr = 3d0, sh_size = 4b0, sh_offset = 3d0, sh_name = 6c
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [9] .plt: sh_addr = 880, sh_size = 10, sh_offset = 880, sh_name = 76
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [10] .plt.got: sh_addr = 890, sh_size = 8, sh_offset = 890, sh_name = 7b
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [11] .text: sh_addr = 8c0, sh_size = 1a6fc, sh_offset = 8c0, sh_name = 84
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [12] .nipx: sh_addr = 1afbc, sh_size = af9, sh_offset = 1afbc, sh_name = 8a
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [13] .rodata: sh_addr = 1bac0, sh_size = 1220, sh_offset = 1bac0, sh_name = 90
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [14] .niprod: sh_addr = 1cd00, sh_size = 8c0, sh_offset = 1cd00, sh_name = 98
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [15] .eh_frame_hdr: sh_addr = 1d5c0, sh_size = 564, sh_offset = 1d5c0, sh_name = a0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [16] .eh_frame: sh_addr = 1db28, sh_size = 16e8, sh_offset = 1db28, sh_name = ae
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [17] .init_array: sh_addr = 21fdb8, sh_size = 8, sh_offset = 1fdb8, sh_name = b8
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [18] .fini_array: sh_addr = 21fdc0, sh_size = 20, sh_offset = 1fdc0, sh_name = c4
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [19] .data.rel.ro: sh_addr = 21fde0, sh_size = 50, sh_offset = 1fde0, sh_name = d0
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [20] .dynamic: sh_addr = 21fe30, sh_size = 1a0, sh_offset = 1fe30, sh_name = dd
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [21] .got: sh_addr = 21ffd0, sh_size = 28, sh_offset = 1ffd0, sh_name = 7f
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [22] .data: sh_addr = 220000, sh_size = b5f, sh_offset = 20000, sh_name = e6
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [23] .nipd: sh_addr = 220b60, sh_size = 8, sh_offset = 20b60, sh_name = ec
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [24] .bss: sh_addr = 220b80, sh_size = 6b0, sh_offset = 20b68, sh_name = f2
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [25] .comment: sh_addr = 0, sh_size = 29, sh_offset = 20b68, sh_name = f7
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [26] .note.sgxmeta: sh_addr = 0, sh_size = 501c, sh_offset = 20b94, sh_name = 100
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [27] .debug_aranges: sh_addr = 0, sh_size = 1d00, sh_offset = 25bb0, sh_name = 10e
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [28] .debug_info: sh_addr = 0, sh_size = 185ff, sh_offset = 278b0, sh_name = 11d
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [29] .debug_abbrev: sh_addr = 0, sh_size = 5abb, sh_offset = 3feaf, sh_name = 129
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [30] .debug_line: sh_addr = 0, sh_size = c0c6, sh_offset = 4596a, sh_name = 137
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [31] .debug_str: sh_addr = 0, sh_size = 53d6, sh_offset = 51a30, sh_name = 143
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [32] .debug_ranges: sh_addr = 0, sh_size = 1a30, sh_offset = 56e06, sh_name = 14e
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [33] .symtab: sh_addr = 0, sh_size = 4068, sh_offset = 58838, sh_name = 1
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [34] .strtab: sh_addr = 0, sh_size = 232b, sh_offset = 5c8a0, sh_name = 9
+[get_section /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/parser/elfparser.cpp:83] section [35] .shstrtab: sh_addr = 0, sh_size = 15c, sh_offset = 5ebcb, sh_name = 11
+[enclave_create sgx_enclave_common.cpp:220] 
+ secs->attibutes.flags = 6, secs->attributes.xfrm = 7 
+[build_secs /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/loader.cpp:524] Enclave start addr. = 0x7ffaaf400000, Size = 0x400000, 4096 KB
+[build_image /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/loader.cpp:567] 
+	Metadata Version = 0x0000000100000004
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    1, HEAP_MIN        , Page Count =     1, Attributes = 0x01, Flags = 0x0000000000000203, RVA = 0x0000000000222000 + 0x0000000000000000
+	build_context
+	Entry Id     =    1, HEAP_MIN        , Page Count =     1, Attributes = 0x01, Flags = 0x0000000000000203, RVA = 0x0000000000222000 -> RVA = 0x0000000000222000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    2, HEAP_INIT       , Page Count =    47, Attributes = 0x11, Flags = 0x0000000000000203, RVA = 0x0000000000223000 + 0x0000000000000000
+	build_context
+	Entry Id     =    2, HEAP_INIT       , Page Count =    47, Attributes = 0x11, Flags = 0x0000000000000203, RVA = 0x0000000000223000 -> RVA = 0x0000000000223000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000252000 + 0x0000000000000000
+	build_context
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000252000 -> RVA = 0x0000000000252000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    7, STACK_MAX       , Page Count =    14, Attributes = 0x53, Flags = 0x0000000000000203, RVA = 0x0000000000262000 + 0x0000000000000000
+	build_context
+	Entry Id     =    7, STACK_MAX       , Page Count =    14, Attributes = 0x53, Flags = 0x0000000000000203, RVA = 0x0000000000262000 -> RVA = 0x0000000000262000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000270000 + 0x0000000000000000
+	build_context
+	Entry Id     =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000270000 -> RVA = 0x0000000000270000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000272000 + 0x0000000000000000
+	build_context
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000272000 -> RVA = 0x0000000000272000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x0000000000282000 + 0x0000000000000000
+	build_context
+	Entry Id     =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x0000000000282000 -> RVA = 0x0000000000282000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000283000 + 0x0000000000000000
+	build_context
+	Entry Id     =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000283000 -> RVA = 0x0000000000283000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000285000 + 0x0000000000000000
+	build_context
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000285000 -> RVA = 0x0000000000285000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000295000 + 0x0000000000000000
+	build_context
+	Entry Id     =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000295000 -> RVA = 0x0000000000295000
+build_contexts, step = 0x0000000000000000
+	Entry Id( 0) = 4105, THREAD_GROUP    , Entry Count =    8, Load Times = 1,    LStep = 0x0000000000044000
+build_contexts, step = 0x0000000000044000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000252000 + 0x0000000000044000
+	build_context
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000252000 -> RVA = 0x0000000000296000
+build_contexts, step = 0x0000000000044000
+	Entry Id( 0) =    7, STACK_MAX       , Page Count =    14, Attributes = 0x53, Flags = 0x0000000000000203, RVA = 0x0000000000262000 + 0x0000000000044000
+	build_context
+	Entry Id     =    7, STACK_MAX       , Page Count =    14, Attributes = 0x53, Flags = 0x0000000000000203, RVA = 0x0000000000262000 -> RVA = 0x00000000002A6000
+build_contexts, step = 0x0000000000044000
+	Entry Id( 0) =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000270000 + 0x0000000000044000
+	build_context
+	Entry Id     =    8, STACK_MIN       , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000270000 -> RVA = 0x00000000002B4000
+build_contexts, step = 0x0000000000044000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000272000 + 0x0000000000044000
+	build_context
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000272000 -> RVA = 0x00000000002B6000
+build_contexts, step = 0x0000000000044000
+	Entry Id( 0) =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x0000000000282000 + 0x0000000000044000
+	build_context
+	Entry Id     =    4, TCS             , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000100, RVA = 0x0000000000282000 -> RVA = 0x00000000002C6000
+build_contexts, step = 0x0000000000044000
+	Entry Id( 0) =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000283000 + 0x0000000000044000
+	build_context
+	Entry Id     =    6, SSA             , Page Count =     2, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000283000 -> RVA = 0x00000000002C7000
+build_contexts, step = 0x0000000000044000
+	Entry Id( 0) =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000285000 + 0x0000000000044000
+	build_context
+	Entry Id     =   10, GUARD           , Page Count =    16, Attributes = 0x00, Flags = 0x0000000000000000, RVA = 0x0000000000285000 -> RVA = 0x00000000002C9000
+build_contexts, step = 0x0000000000044000
+	Entry Id( 0) =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000295000 + 0x0000000000044000
+	build_context
+	Entry Id     =    5, TD              , Page Count =     1, Attributes = 0x03, Flags = 0x0000000000000203, RVA = 0x0000000000295000 -> RVA = 0x00000000002D9000
+[reg_sig_handler sig_handler.cpp:189] signal handler is registered
+[__create_enclave /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/urts_com.h:332] add tcs 0x7ffaaf682000
+[__create_enclave /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/urts_com.h:332] add tcs 0x7ffaaf6c6000
+[__create_enclave /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/urts_com.h:342] Debug enclave. Checking if VTune is profiling or SGX_DBG_OPTIN is set
+[__create_enclave /home/ray/sgx-id/sgx-step/linux-sgx/psw/urts/urts_com.h:388] VTune is not profiling and SGX_DBG_OPTIN is not set. TCS Debug OPTIN bit not set and API to do module mapping not invoked
+==== Victim Enclave ====
+[pt.c] /dev/sgx-step opened!
+    Base:   0x7ffaaf400000
+    Size:   4194304
+    Limit:  0x7ffaaf800000
+    TCS:    0x7ffaaf6c6000
+    SSA:    0x7ffaaf6c7f48
+    AEP:    0x558d8d53d6a8
+    EDBGRD: debug
+thread 2979211072, i = 3
+Host: the output address 558d8d744000.
+t_attestation 7ffaaf6c6000, 558d8d744000, 558d8d74e040
+begin print
+
+ 0x0  0x558d8d744000  0x7ffccd9b5a28  0x1e  0x7ffccd9b5a28  0x7ffaaf4008c0  end print argu
+ 
+t_attestation 7ffaaf6c6000, 558d8d744000, 558d8d74e040
+begin print
+
+ 0x1  0x558d8d744000  0x7ffccd9b5a28  0x1e  0x7ffccd9b5a28  0x7ffaaf4008c0  end print argu
+ 
+t_attestation 7ffaaf6c6000, 558d8d744000, 558d8d74e040
+begin print
+
+ 0x2  0x558d8d744000  0x7ffccd9b5a28  0x1e  0x7ffccd9b5a28  0x7ffaaf4008c0  end print argu
+ 
+t_attestation 7ffaaf6c6000, 558d8d744000, 558d8d74e040
+begin print
+
+ 0x3  0x558d8d744000  0x7ffccd9b5a28  0x1e  0x7ffccd9b5a28  0x7ffaaf4008c0  end print argu
+ 
+t_attestation 7ffaaf6c6000, 558d8d744000, 558d8d74e040
+begin print
+
+ 0x4  0x558d8d744000  0x7ffccd9b5a28  0x1e  0x7ffccd9b5a28  0x7ffaaf4008c0  end print argu
+ 
+
+Host: the output data: 
+Info: SampleEnclave successfully returned.
+Enter a character before exit ...
+

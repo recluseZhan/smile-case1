@@ -1,0 +1,1 @@
+cmd_/home/ray/sgx-id/sgx-step/app/ssdemo3/trampoline/trampoline1.mod := { echo  /home/ray/sgx-id/sgx-step/app/ssdemo3/trampoline/trampoline1.o;  echo; } > /home/ray/sgx-id/sgx-step/app/ssdemo3/trampoline/trampoline1.mod

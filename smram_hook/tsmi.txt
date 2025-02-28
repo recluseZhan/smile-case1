@@ -1,0 +1,52 @@
+
+tsmi.elf:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+00000000b8400100 <asmcode>:
+    b8400100:	48 b8 20 00 40 b8 00 	movabs $0xb8400020,%rax
+    b8400107:	00 00 00 
+    b840010a:	48 89 58 08          	mov    %rbx,0x8(%rax)
+    b840010e:	48 89 48 10          	mov    %rcx,0x10(%rax)
+    b8400112:	48 89 50 18          	mov    %rdx,0x18(%rax)
+    b8400116:	48 89 70 20          	mov    %rsi,0x20(%rax)
+    b840011a:	48 89 78 28          	mov    %rdi,0x28(%rax)
+    b840011e:	48 89 60 30          	mov    %rsp,0x30(%rax)
+    b8400122:	48 89 68 38          	mov    %rbp,0x38(%rax)
+    b8400126:	4c 89 40 40          	mov    %r8,0x40(%rax)
+    b840012a:	4c 89 48 48          	mov    %r9,0x48(%rax)
+    b840012e:	4c 89 50 50          	mov    %r10,0x50(%rax)
+    b8400132:	4c 89 58 58          	mov    %r11,0x58(%rax)
+    b8400136:	4c 89 60 60          	mov    %r12,0x60(%rax)
+    b840013a:	4c 89 68 68          	mov    %r13,0x68(%rax)
+    b840013e:	4c 89 70 70          	mov    %r14,0x70(%rax)
+    b8400142:	4c 89 78 78          	mov    %r15,0x78(%rax)
+    b8400146:	48 b8 f0 5f 3d b8 00 	movabs $0xb83d5ff0,%rax
+    b840014d:	00 00 00 
+    b8400150:	48 c7 00 00 b0 7e c0 	movq   $0xffffffffc07eb000,(%rax)
+    b8400157:	b8 c0 00 40 b8       	mov    $0xb84000c0,%eax
+    b840015c:	67 c7 00 01 00 00 00 	movl   $0x1,(%eax)
+    b8400163:	48 b8 20 00 40 b8 00 	movabs $0xb8400020,%rax
+    b840016a:	00 00 00 
+    b840016d:	48 8b 58 08          	mov    0x8(%rax),%rbx
+    b8400171:	48 8b 48 10          	mov    0x10(%rax),%rcx
+    b8400175:	48 8b 50 18          	mov    0x18(%rax),%rdx
+    b8400179:	48 8b 70 20          	mov    0x20(%rax),%rsi
+    b840017d:	48 8b 78 28          	mov    0x28(%rax),%rdi
+    b8400181:	48 8b 60 30          	mov    0x30(%rax),%rsp
+    b8400185:	48 8b 68 38          	mov    0x38(%rax),%rbp
+    b8400189:	4c 8b 40 40          	mov    0x40(%rax),%r8
+    b840018d:	4c 8b 48 48          	mov    0x48(%rax),%r9
+    b8400191:	4c 8b 50 50          	mov    0x50(%rax),%r10
+    b8400195:	4c 8b 58 58          	mov    0x58(%rax),%r11
+    b8400199:	4c 8b 60 60          	mov    0x60(%rax),%r12
+    b840019d:	4c 8b 68 68          	mov    0x68(%rax),%r13
+    b84001a1:	4c 8b 70 70          	mov    0x70(%rax),%r14
+    b84001a5:	4c 8b 78 78          	mov    0x78(%rax),%r15
+    b84001a9:	0f aa                	rsm    
+    b84001ab:	66 66 66 66 0f 1f 84 	data16 data16 data16 nopw 0x0(%rax,%rax,1)
+    b84001b2:	00 00 00 00 00 
+    b84001b7:	f8                   	clc    
+    b84001b8:	df 38                	fistpll (%rax)
+    b84001ba:	b8 18 00 00 00       	mov    $0x18,%eax

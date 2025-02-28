@@ -1,0 +1,1 @@
+cmd_/home/ray/sgx/sgx-step/app/test_enclave_design/SMIdriver/smid.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/ray/sgx/sgx-step/app/test_enclave_design/SMIdriver/smid.ko /home/ray/sgx/sgx-step/app/test_enclave_design/SMIdriver/smid.o /home/ray/sgx/sgx-step/app/test_enclave_design/SMIdriver/smid.mod.o;  true

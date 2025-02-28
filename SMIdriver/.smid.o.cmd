@@ -1,0 +1,1 @@
+cmd_/home/ray/sgx/sgx-step/app/test_enclave_design/SMIdriver/smid.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o /home/ray/sgx/sgx-step/app/test_enclave_design/SMIdriver/smid.o /home/ray/sgx/sgx-step/app/test_enclave_design/SMIdriver/smi.o

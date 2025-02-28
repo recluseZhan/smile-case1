@@ -1,0 +1,1 @@
+cmd_/home/ray/sgx-id/sgx-step/app/ssdemo3/trampoline/trampoline1.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/ray/sgx-id/sgx-step/app/ssdemo3/trampoline/trampoline1.ko /home/ray/sgx-id/sgx-step/app/ssdemo3/trampoline/trampoline1.o /home/ray/sgx-id/sgx-step/app/ssdemo3/trampoline/trampoline1.mod.o;  true
